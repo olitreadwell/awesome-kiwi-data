@@ -26,6 +26,30 @@ archive = "off"
 exclude = []
 allowlist = []
 
+[github]
+# Every GitHub link carries stars and a last-push date: make stats fetches them,
+# make stats-check verifies them offline.
+stats = true
+max_age_days = 30
+snapshot = "github-stats.json"
+
+[sources]
+# Upstream lists to mine for candidates. make sources writes a report; a human
+# writes every entry.
+lists = [
+    "https://raw.githubusercontent.com/public-apis/public-apis/master/README.md",
+]
+keywords = [
+    "new zealand",
+    "aotearoa",
+    "auckland",
+    "wellington",
+    "christchurch",
+    "data.govt.nz",
+    "stats.govt.nz",
+]
+report = "reports/source-candidates.md"
+
 [tags.type]
 API = "⇄"
 Data = "▦"

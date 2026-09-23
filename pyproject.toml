@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "A curated list of New Zealand data sources, APIs, registers and portals."
 requires-python = ">=3.12"
 dependencies = [
-    "awesome-list @ git+https://github.com/olitreadwell/awesome-list-template@08599c9a363efc18462ca7f94a7a55bd53ae19a4",
+    "awesome-list @ git+https://github.com/olitreadwell/awesome-list-template@0afe1aceed3f21ee6c4ac9234ecf026b7fcf0664",
 ]
 
 [dependency-groups]

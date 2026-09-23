@@ -23,3 +23,10 @@ make check
   lines.
 - Point retired tools at where the data lives now, or move them out. Never keep
   an archived tool in the main list.
+- Give every GitHub link its stars and last-push date with `make stats`, which
+  writes `github-stats.json` and the trailing stats segment. Never hand-write a
+  stars number. `make stats-check` verifies both without the network.
+- `make sources` mines upstream lists and writes
+  `reports/source-candidates.md`. That report is candidates, not entries: a
+  human writes the entry, because awesome.re rejects list content written by
+  automation.
