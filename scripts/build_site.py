@@ -175,7 +175,9 @@ def parse_readme(text: str) -> dict:
             current_sub = None
         elif line.startswith("## "):
             name = line[3:].strip()
-            current = {"name": name, "meta": False, "subs": [], "items": []}
+            # "Contents" is the README's own table of contents; the site has
+            # its own nav, so it is marked meta like the other front matter.
+            current = {"name": name, "meta": name in META_SECTIONS, "subs": [], "items": []}
             sections.append(current)
             current_sub = None
         elif line.startswith("#### "):
@@ -632,6 +634,11 @@ const sections = Array.from(document.querySelectorAll("[data-section]"));
 const tocList = document.getElementById("toc-list");
 
 sections.forEach((section) => {
+  // Front matter (Contents, Legend, Start here, Acknowledgements,
+  // Contributing) has no countable links, so it is left out of the nav.
+  if (section.dataset.static !== undefined) {
+    return;
+  }
   const li = document.createElement("li");
   const a = document.createElement("a");
   a.href = "#" + section.id;
