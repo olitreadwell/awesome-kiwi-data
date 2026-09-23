@@ -1,0 +1,9 @@
+# Python
+__pycache__/
+*.pyc
+
+# Generated site output (built fresh by CI / scripts/build_site.py)
+site/
+
+# OS cruft
+.DS_Store

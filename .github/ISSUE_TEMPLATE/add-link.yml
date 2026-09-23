@@ -1,0 +1,61 @@
+name: Suggest a link
+description: Suggest a New Zealand dataset or API to add to the list.
+title: "[Link] "
+labels: ["new link"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a link! Please only include links you can
+        verify resolve to a live page. If you don't know a field, leave it
+        blank rather than guessing.
+
+  - type: input
+    id: name
+    attributes:
+      label: Name
+      description: The dataset, API, or service name.
+      placeholder: "e.g. Stats NZ API"
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      placeholder: "https://example.govt.nz"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: Which section of the README it belongs in.
+      options:
+        - Central government and agencies
+        - Tourism and economic data
+        - Regional councils
+        - City and district councils
+        - Crown Research Institutes (CRIs)
+        - Non-government organisations
+        - Companies
+        - Other / not sure
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: One or two plain-language sentences describing what it is.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Confirmation
+      options:
+        - label: I've verified this link resolves to a live page.
+          required: true
