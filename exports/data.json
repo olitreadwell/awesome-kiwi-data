@@ -1,0 +1,1174 @@
+{
+  "name": "Awesome Kiwi Data",
+  "repo_slug": "awesome-kiwi-data",
+  "generated_at": "2026-09-23",
+  "entry_count": 101,
+  "sections": [
+    {
+      "name": "Legend",
+      "entries": []
+    },
+    {
+      "name": "Start here",
+      "entries": []
+    },
+    {
+      "name": "Central government and agencies",
+      "entries": [
+        {
+          "name": "Aotearoa Data Explorer",
+          "url": "https://explore.data.stats.govt.nz/",
+          "description": "the current Stats NZ data tool, replaced NZ.Stat for most official statistics.",
+          "tags": [
+            "Data",
+            "Open"
+          ],
+          "group": "Statistics New Zealand",
+          "line": 55
+        },
+        {
+          "name": "Infoshare",
+          "url": "https://infoshare.stats.govt.nz/",
+          "description": "time series data, being retired in favour of the Aotearoa Data Explorer.",
+          "tags": [
+            "Data",
+            "Open",
+            "Legacy"
+          ],
+          "group": "Statistics New Zealand",
+          "line": 56
+        },
+        {
+          "name": "Stats NZ website",
+          "url": "https://www.stats.govt.nz/",
+          "description": "statistical releases, methods and tools.",
+          "tags": [
+            "Portal",
+            "Open"
+          ],
+          "group": "Statistics New Zealand",
+          "line": 57
+        },
+        {
+          "name": "Stats NZ Geographic Data Service",
+          "url": "https://datafinder.stats.govt.nz/",
+          "description": "geographic boundary files and other spatial data.",
+          "tags": [
+            "Data",
+            "Open"
+          ],
+          "group": "Statistics New Zealand",
+          "line": 58
+        },
+        {
+          "name": "Statistics Page",
+          "url": "https://www.msd.govt.nz/about-msd-and-our-work/publications-resources/statistics/index.html",
+          "description": ".",
+          "tags": [
+            "Portal",
+            "Open"
+          ],
+          "group": "Ministry of Social Development (MSD)",
+          "line": 60
+        },
+        {
+          "name": "Benefits Data Tables",
+          "url": "https://www.msd.govt.nz/about-msd-and-our-work/publications-resources/statistics/benefit/index.html#Datatables6",
+          "description": ".",
+          "tags": [
+            "Data",
+            "Open"
+          ],
+          "group": "Ministry of Social Development (MSD)",
+          "line": 61
+        },
+        {
+          "name": "Housing Register",
+          "url": "https://www.msd.govt.nz/about-msd-and-our-work/publications-resources/statistics/housing/housing-register.html",
+          "description": "social housing register, published quarterly.",
+          "tags": [
+            "Data",
+            "Open"
+          ],
+          "group": "Ministry of Social Development (MSD)",
+          "line": 62
+        },
+        {
+          "name": "Justice research and data",
+          "url": "https://www.justice.govt.nz/justice-sector-policy/research-data/",
+          "description": "conviction and justice sector data, the successor to DataLab.",
+          "tags": [
+            "Data",
+            "Open"
+          ],
+          "group": "Ministry of Justice (MoJ)",
+          "line": 64
+        },
+        {
+          "name": "Statistics and data sets",
+          "url": "https://www.health.govt.nz/monitoring-statistics/statistics-and-data-sets",
+          "description": "health survey results and published datasets.",
+          "tags": [
+            "Data",
+            "Open"
+          ],
+          "group": "Ministry of Health (MoH)",
+          "line": 66
+        },
+        {
+          "name": "Statistics and insights",
+          "url": "https://www.transport.govt.nz/statistics-and-insights",
+          "description": "transport statistics, replacing the Transport Monitoring Indicator Framework.",
+          "tags": [
+            "Data",
+            "Open"
+          ],
+          "group": "Ministry of Transport (MoT)",
+          "line": 68
+        },
+        {
+          "name": "GIS Data & APIs",
+          "url": "https://data.mfe.govt.nz/",
+          "description": ".",
+          "tags": [
+            "Data",
+            "Open"
+          ],
+          "group": "Ministry for the Environment (MoE)",
+          "line": 70
+        },
+        {
+          "name": "Maps and data",
+          "url": "https://www.doc.govt.nz/our-work/maps-and-data/",
+          "description": "DOC datasets, maps and geospatial services.",
+          "tags": [
+            "Data",
+            "Open"
+          ],
+          "group": "Department of Conservation (DoC)",
+          "line": 72
+        },
+        {
+          "name": "Digital NZ API",
+          "url": "https://digitalnz.org/developers",
+          "description": "search across NZ heritage collections.",
+          "tags": [
+            "API",
+            "Key"
+          ],
+          "group": "Department of Internal Affairs (DIA) (+ DigitalNZ)",
+          "line": 74
+        },
+        {
+          "name": "Data.govt.nz",
+          "url": "https://www.data.govt.nz/",
+          "description": "government dataset catalogue.",
+          "tags": [
+            "Portal",
+            "Open"
+          ],
+          "group": "Department of Internal Affairs (DIA) (+ DigitalNZ)",
+          "line": 75
+        },
+        {
+          "name": "Government A-Z directory",
+          "url": "https://www.govt.nz/organisations/",
+          "description": "every government organisation and what it does.",
+          "tags": [
+            "Register",
+            "Open"
+          ],
+          "group": "Department of Internal Affairs (DIA) (+ DigitalNZ)",
+          "line": 76
+        },
+        {
+          "name": "New Zealand Gazette",
+          "url": "https://gazette.govt.nz/",
+          "description": "official notices, appointments and public notices, published weekly.",
+          "tags": [
+            "Data",
+            "Open"
+          ],
+          "group": "Department of Internal Affairs (DIA) (+ DigitalNZ)",
+          "line": 77
+        },
+        {
+          "name": "Papers Past",
+          "url": "https://natlib.govt.nz/about-us/open-data/papers-past-metadata",
+          "description": "digitised newspapers and magazines, with metadata.",
+          "tags": [
+            "Data",
+            "Open"
+          ],
+          "group": "Department of Internal Affairs (DIA) (+ DigitalNZ)",
+          "line": 78
+        },
+        {
+          "name": "Turnbull Unpublished Collections",
+          "url": "https://natlib.govt.nz/about-us/open-data/turnbull-unpublished-collections-metadata",
+          "description": "metadata for unpublished material held by the Turnbull Library.",
+          "tags": [
+            "Data",
+            "Open"
+          ],
+          "group": "Department of Internal Affairs (DIA) (+ DigitalNZ)",
+          "line": 79
+        },
+        {
+          "name": "DigitalNZ API examples",
+          "url": "https://digitalnz.org/developers/api-examples-in-use",
+          "description": "worked examples for the DigitalNZ API, replacing the retired WWI examples pack.",
+          "tags": [
+            "Docs",
+            "Open"
+          ],
+          "group": "Department of Internal Affairs (DIA) (+ DigitalNZ)",
+          "line": 80
+        },
+        {
+          "name": "Publications New Zealand",
+          "url": "https://natlib.govt.nz/about-us/open-data/publications-nz-metadata",
+          "description": "metadata for New Zealand publications.",
+          "tags": [
+            "Data",
+            "Open"
+          ],
+          "group": "Department of Internal Affairs (DIA) (+ DigitalNZ)",
+          "line": 81
+        },
+        {
+          "name": "Index New Zealand",
+          "url": "https://natlib.govt.nz/about-us/open-data/innz-metadata",
+          "description": "metadata for New Zealand journals and newspapers.",
+          "tags": [
+            "Data",
+            "Open"
+          ],
+          "group": "Department of Internal Affairs (DIA) (+ DigitalNZ)",
+          "line": 82
+        },
+        {
+          "name": "Alexander Turnbull Library image downloads",
+          "url": "https://natlib.govt.nz/photos?il%5batl_free_download%5d=true",
+          "description": "free downloads of out-of-copyright images.",
+          "tags": [
+            "Data",
+            "Open"
+          ],
+          "group": "Department of Internal Affairs (DIA) (+ DigitalNZ)",
+          "line": 83
+        },
+        {
+          "name": "Tax Statistics",
+          "url": "https://www.ird.govt.nz/about-us/tax-statistics",
+          "description": ".",
+          "tags": [
+            "Data",
+            "Open"
+          ],
+          "group": "Inland Revenue (IRD)",
+          "line": 85
+        },
+        {
+          "name": "Budgets and forecasts",
+          "url": "https://www.treasury.govt.nz/information-and-services/financial-management-and-advice/budgets-and-forecasts",
+          "description": "Budget documents and Economic and Fiscal Update tables and charts.",
+          "tags": [
+            "Data",
+            "Open"
+          ],
+          "group": "The Treasury",
+          "line": 87
+        },
+        {
+          "name": "Living Standards Framework dashboard",
+          "url": "https://lsfdashboard.treasury.govt.nz/wellbeing/",
+          "description": "wellbeing indicators for New Zealand.",
+          "tags": [
+            "Data",
+            "Open"
+          ],
+          "group": "The Treasury",
+          "line": 88
+        },
+        {
+          "name": "LINZ Data Service",
+          "url": "https://data.linz.govt.nz/",
+          "description": "authoritative topographic, hydrographic, survey, title, street address, crown pastoral land, aerial imagery and geodetic data.",
+          "tags": [
+            "Data",
+            "Open"
+          ],
+          "group": "Land Information New Zealand (LINZ)",
+          "line": 90
+        },
+        {
+          "name": "National data collections",
+          "url": "https://www.educationcounts.govt.nz/data-services/national",
+          "description": ".",
+          "tags": [
+            "Data",
+            "Open"
+          ],
+          "group": "Education Counts",
+          "line": 92
+        },
+        {
+          "name": "Statistics",
+          "url": "https://www.educationcounts.govt.nz/statistics",
+          "description": ".",
+          "tags": [
+            "Data",
+            "Open"
+          ],
+          "group": "Education Counts",
+          "line": 93
+        },
+        {
+          "name": "Public Access Areas",
+          "url": "https://catalogue.data.govt.nz/dataset/public-access-areas",
+          "description": "where the public has a right of access across land, with service links.",
+          "tags": [
+            "Data",
+            "Open"
+          ],
+          "group": "Herenga ā Nuku Aotearoa (Walking Access Commission)",
+          "line": 95
+        },
+        {
+          "name": "Outdoor access maps",
+          "url": "https://www.herengaanuku.govt.nz/maps/outdoor-access-maps",
+          "description": "the live WAMS maps, and where the public access data is served from.",
+          "tags": [
+            "Portal",
+            "Open"
+          ],
+          "group": "Herenga ā Nuku Aotearoa (Walking Access Commission)",
+          "line": 96
+        },
+        {
+          "name": "Crime Statistics",
+          "url": "https://www.police.govt.nz/about-us/publications-statistics/data-and-statistics",
+          "description": ".",
+          "tags": [
+            "Data",
+            "Open"
+          ],
+          "group": "New Zealand Police",
+          "line": 98
+        },
+        {
+          "name": "Secondary School Statistics",
+          "url": "https://www2.nzqa.govt.nz/ncea/understanding-secondary-quals/secondary-school-stats/",
+          "description": ".",
+          "tags": [
+            "Data",
+            "Open"
+          ],
+          "group": "New Zealand Qualifications Authority (NZQA)",
+          "line": 100
+        },
+        {
+          "name": "NZTA open data portal",
+          "url": "https://opendata-nzta.opendata.arcgis.com/",
+          "description": "36 transport datasets, including the former InfoConnect feeds. The InfoConnect API pages were retired and now 404.",
+          "tags": [
+            "Portal",
+            "Open"
+          ],
+          "group": "New Zealand Transport Agency (NZTA)",
+          "line": 102
+        },
+        {
+          "name": "Highway information",
+          "url": "https://opendata-nzta.opendata.arcgis.com/datasets/NZTA::nzta-highway-information",
+          "description": "near real time state highway conditions.",
+          "tags": [
+            "Data",
+            "Open"
+          ],
+          "group": "New Zealand Transport Agency (NZTA)",
+          "line": 103
+        },
+        {
+          "name": "Road events",
+          "url": "https://opendata-nzta.opendata.arcgis.com/datasets/NZTA::road-events",
+          "description": "closures, crashes and hazards.",
+          "tags": [
+            "Data",
+            "Open"
+          ],
+          "group": "New Zealand Transport Agency (NZTA)",
+          "line": 104
+        },
+        {
+          "name": "TMS daily traffic counts API",
+          "url": "https://opendata-nzta.opendata.arcgis.com/datasets/NZTA::tms-daily-traffic-counts-api",
+          "description": ".",
+          "tags": [
+            "API",
+            "Open"
+          ],
+          "group": "New Zealand Transport Agency (NZTA)",
+          "line": 105
+        },
+        {
+          "name": "State highway traffic monitoring sites",
+          "url": "https://opendata-nzta.opendata.arcgis.com/datasets/NZTA::state-highway-traffic-monitoring-sites",
+          "description": ".",
+          "tags": [
+            "Data",
+            "Open"
+          ],
+          "group": "New Zealand Transport Agency (NZTA)",
+          "line": 106
+        },
+        {
+          "name": "Motor Vehicle Register",
+          "url": "https://opendata-nzta.opendata.arcgis.com/datasets/NZTA::motor-vehicle-register",
+          "description": ".",
+          "tags": [
+            "Data",
+            "Open"
+          ],
+          "group": "New Zealand Transport Agency (NZTA)",
+          "line": 107
+        },
+        {
+          "name": "National Speed Limit Register (NSLR)",
+          "url": "https://opendata-nzta.opendata.arcgis.com/datasets/NZTA::national-speed-limit-register-nslr",
+          "description": ".",
+          "tags": [
+            "Data",
+            "Open"
+          ],
+          "group": "New Zealand Transport Agency (NZTA)",
+          "line": 108
+        },
+        {
+          "name": "Crash Analysis System (CAS)",
+          "url": "https://www.nzta.govt.nz/resources/crash-analysis-system-data/index.html",
+          "description": "how to request crash data, with the open dataset linked from the portal.",
+          "tags": [
+            "Data",
+            "Open"
+          ],
+          "group": "New Zealand Transport Agency (NZTA)",
+          "line": 109
+        },
+        {
+          "name": "Aerial Imagery",
+          "url": "https://koordinates.com/from/nzta/data/",
+          "description": ".",
+          "tags": [
+            "Data",
+            "Open"
+          ],
+          "group": "New Zealand Transport Agency (NZTA)",
+          "line": 110
+        },
+        {
+          "name": "Business API portal",
+          "url": "https://portal.api.business.govt.nz/",
+          "description": "MBIE register APIs, subscription required.",
+          "tags": [
+            "Portal",
+            "Key"
+          ],
+          "group": "Ministry of Business, Innovation and Employment (MBIE)",
+          "line": 112
+        },
+        {
+          "name": "Companies Register",
+          "url": "https://portal.api.business.govt.nz/api/companies-register",
+          "description": ".",
+          "tags": [
+            "API",
+            "Key"
+          ],
+          "group": "Ministry of Business, Innovation and Employment (MBIE)",
+          "line": 113
+        },
+        {
+          "name": "Intellectual Property Office (IPONZ)",
+          "url": "https://portal.api.business.govt.nz/api/iponz",
+          "description": ".",
+          "tags": [
+            "API",
+            "Key"
+          ],
+          "group": "Ministry of Business, Innovation and Employment (MBIE)",
+          "line": 114
+        },
+        {
+          "name": "Insolvency Register",
+          "url": "https://portal.api.business.govt.nz/api/insolvency-register",
+          "description": ".",
+          "tags": [
+            "API",
+            "Key"
+          ],
+          "group": "Ministry of Business, Innovation and Employment (MBIE)",
+          "line": 115
+        },
+        {
+          "name": "Licensed Building Practitioners (LBP)",
+          "url": "https://portal.api.business.govt.nz/api/lbp",
+          "description": ".",
+          "tags": [
+            "API",
+            "Key"
+          ],
+          "group": "Ministry of Business, Innovation and Employment (MBIE)",
+          "line": 116
+        },
+        {
+          "name": "Motor Vehicle Traders Register (MVTR)",
+          "url": "https://portal.api.business.govt.nz/api/motor-vehicle-traders-register",
+          "description": ".",
+          "tags": [
+            "API",
+            "Key"
+          ],
+          "group": "Ministry of Business, Innovation and Employment (MBIE)",
+          "line": 117
+        },
+        {
+          "name": "New Zealand Business Number (NZBN)",
+          "url": "https://portal.api.business.govt.nz/api/nzbn",
+          "description": ".",
+          "tags": [
+            "API",
+            "Key"
+          ],
+          "group": "Ministry of Business, Innovation and Employment (MBIE)",
+          "line": 118
+        },
+        {
+          "name": "Personal Property Securities Register (PPSR)",
+          "url": "https://portal.api.business.govt.nz/api/ppsr",
+          "description": ".",
+          "tags": [
+            "API",
+            "Key"
+          ],
+          "group": "Ministry of Business, Innovation and Employment (MBIE)",
+          "line": 119
+        },
+        {
+          "name": "Radio Spectrum Management (RSM)",
+          "url": "https://portal.api.business.govt.nz/api/radiospectrum-management",
+          "description": ".",
+          "tags": [
+            "API",
+            "Key"
+          ],
+          "group": "Ministry of Business, Innovation and Employment (MBIE)",
+          "line": 120
+        },
+        {
+          "name": "Tenancy Bond",
+          "url": "https://portal.api.business.govt.nz/api/tenancy-bond",
+          "description": ".",
+          "tags": [
+            "API",
+            "Key"
+          ],
+          "group": "Ministry of Business, Innovation and Employment (MBIE)",
+          "line": 121
+        },
+        {
+          "name": "Petroleum and Minerals (NZPAM)",
+          "url": "https://www.nzpam.govt.nz/permits/minerals",
+          "description": "minerals permits. There is no NZPAM API in the MBIE portal.",
+          "tags": [
+            "Register",
+            "Open"
+          ],
+          "group": "Ministry of Business, Innovation and Employment (MBIE)",
+          "line": 122
+        },
+        {
+          "name": "NZPAM Geodata Catalogue",
+          "url": "https://geodata.nzpam.govt.nz/",
+          "description": "petroleum and minerals geoscience data, the NZPAM data store.",
+          "tags": [
+            "Data",
+            "Open"
+          ],
+          "group": "Ministry of Business, Innovation and Employment (MBIE)",
+          "line": 123
+        },
+        {
+          "name": "Research",
+          "url": "https://www.corrections.govt.nz/resources/research",
+          "description": "prison population and corrections statistics.",
+          "tags": [
+            "Data",
+            "Open"
+          ],
+          "group": "Department of Corrections",
+          "line": 125
+        },
+        {
+          "name": "Research and statistics",
+          "url": "https://www.immigration.govt.nz/about-us/research-and-statistics/",
+          "description": "visa and migration statistics.",
+          "tags": [
+            "Data",
+            "Open"
+          ],
+          "group": "Immigration New Zealand",
+          "line": 127
+        },
+        {
+          "name": "New Zealand Legislation",
+          "url": "https://www.legislation.govt.nz/",
+          "description": "official Acts, regulations and Bills.",
+          "tags": [
+            "Register",
+            "Open"
+          ],
+          "group": "Parliamentary Counsel Office",
+          "line": 129
+        }
+      ]
+    },
+    {
+      "name": "Tourism and economic data",
+      "entries": [
+        {
+          "name": "Regional Tourism Estimates",
+          "url": "https://www.mbie.govt.nz/immigration-and-tourism/tourism-research-and-data/tourism-data-releases/previous-tourism-data-releases/regional-tourism-estimates",
+          "description": "annual visitor spend by region.",
+          "tags": [
+            "Data",
+            "Open"
+          ],
+          "group": null,
+          "line": 133
+        },
+        {
+          "name": "Monthly Regional Tourism Estimates",
+          "url": "https://www.mbie.govt.nz/immigration-and-tourism/tourism-research-and-data/tourism-data-releases/monthly-regional-tourism-estimates",
+          "description": "monthly visitor spend by region.",
+          "tags": [
+            "Data",
+            "Open"
+          ],
+          "group": null,
+          "line": 134
+        },
+        {
+          "name": "Tourism data releases",
+          "url": "https://www.mbie.govt.nz/immigration-and-tourism/tourism-research-and-data/tourism-data-releases",
+          "description": "forecasts and other tourism releases.",
+          "tags": [
+            "Portal",
+            "Open"
+          ],
+          "group": null,
+          "line": 135
+        },
+        {
+          "name": "Statistics",
+          "url": "https://www.rbnz.govt.nz/statistics",
+          "description": "monetary, financial and economic statistics.",
+          "tags": [
+            "Data",
+            "Open"
+          ],
+          "group": "Reserve Bank of New Zealand",
+          "line": 137
+        },
+        {
+          "name": "Data1850",
+          "url": "https://www.nzier.org.nz/data-1850",
+          "description": "long-term economic data.",
+          "tags": [
+            "Data",
+            "Open"
+          ],
+          "group": "New Zealand Institute of Economic Research",
+          "line": 139
+        }
+      ]
+    },
+    {
+      "name": "Regional councils",
+      "entries": [
+        {
+          "name": "Canterbury Maps open data",
+          "url": "https://opendata.canterburymaps.govt.nz/",
+          "description": ".",
+          "tags": [
+            "Data",
+            "Open"
+          ],
+          "group": "Environment Canterbury & Partners (ECAN)",
+          "line": 144
+        },
+        {
+          "name": "GIS Data & APIs",
+          "url": "https://koordinates.com/from/gwrc/data/",
+          "description": ".",
+          "tags": [
+            "Data",
+            "Open"
+          ],
+          "group": "Greater Wellington Regional Council (GWRC)",
+          "line": 146
+        }
+      ]
+    },
+    {
+      "name": "City and district councils",
+      "entries": [
+        {
+          "name": "Auckland Open Data",
+          "url": "https://aucklandopendata-aucklandcouncil.opendata.arcgis.com/",
+          "description": ".",
+          "tags": [
+            "Portal",
+            "Open"
+          ],
+          "group": "Auckland Council",
+          "line": 151
+        },
+        {
+          "name": "Auckland Transport API",
+          "url": "https://dev-portal.at.govt.nz/",
+          "description": ".",
+          "tags": [
+            "API",
+            "Key"
+          ],
+          "group": "Auckland Council",
+          "line": 152
+        },
+        {
+          "name": "Auckland Transport Open GIS Data",
+          "url": "https://data-atgis.opendata.arcgis.com/",
+          "description": ".",
+          "tags": [
+            "Data",
+            "Open"
+          ],
+          "group": "Auckland Council",
+          "line": 153
+        },
+        {
+          "name": "GIS Data",
+          "url": "https://data-wcc.opendata.arcgis.com/",
+          "description": ".",
+          "tags": [
+            "Data",
+            "Open"
+          ],
+          "group": "Wellington City Council (WCC)",
+          "line": 155
+        },
+        {
+          "name": "Metlink Open Data",
+          "url": "https://opendata.metlink.org.nz/",
+          "description": "GTFS timetables and realtime feeds, registration required.",
+          "tags": [
+            "Data",
+            "Key"
+          ],
+          "group": "Wellington City Council (WCC)",
+          "line": 156
+        },
+        {
+          "name": "Open Data Portal",
+          "url": "https://opendata-christchurchcity.hub.arcgis.com/",
+          "description": "council datasets across transport, land and services.",
+          "tags": [
+            "Portal",
+            "Open"
+          ],
+          "group": "Christchurch City Council",
+          "line": 158
+        },
+        {
+          "name": "Whanganui GeoSpatial",
+          "url": "https://geonode.whanganui.govt.nz/",
+          "description": "council GIS datasets.",
+          "tags": [
+            "Data",
+            "Open"
+          ],
+          "group": "Whanganui District Council",
+          "line": 160
+        },
+        {
+          "name": "Open data on Koordinates",
+          "url": "https://koordinates.com/from/whanganui-district-council/data/",
+          "description": ".",
+          "tags": [
+            "Data",
+            "Open"
+          ],
+          "group": "Whanganui District Council",
+          "line": 161
+        },
+        {
+          "name": "Cemetery Search",
+          "url": "https://www.whanganui.govt.nz/Services/Cemeteries-and-Crematorium/Cemetery-Search",
+          "description": ".",
+          "tags": [
+            "Register",
+            "Open"
+          ],
+          "group": "Whanganui District Council",
+          "line": 162
+        },
+        {
+          "name": "Property and Rating Search",
+          "url": "https://www.whanganui.govt.nz/Property-and-Rates/Rates/Property-Rating-Search",
+          "description": ".",
+          "tags": [
+            "Register",
+            "Open"
+          ],
+          "group": "Whanganui District Council",
+          "line": 163
+        },
+        {
+          "name": "Food Safety",
+          "url": "https://www.whanganui.govt.nz/Business/Food-Safety",
+          "description": "food business registration; grading searches for all councils are on the MPI food register.",
+          "tags": [
+            "Docs",
+            "Open"
+          ],
+          "group": "Whanganui District Council",
+          "line": 164
+        },
+        {
+          "name": "GIS Data & APIs",
+          "url": "https://koordinates.com/from/porirua-city-council/data/",
+          "description": ".",
+          "tags": [
+            "Data",
+            "Open"
+          ],
+          "group": "Porirua City Council",
+          "line": 166
+        }
+      ]
+    },
+    {
+      "name": "Crown Research Institutes (CRIs)",
+      "entries": [
+        {
+          "name": "DataHub",
+          "url": "https://data.niwa.co.nz/",
+          "description": "NIWA's open data platform.",
+          "tags": [
+            "Portal",
+            "Open"
+          ],
+          "group": "NIWA",
+          "line": 171
+        },
+        {
+          "name": "CliFlo Climate Database",
+          "url": "https://data.niwa.co.nz/pages/clidb-on-datahub",
+          "description": "climate observations, now hosted on DataHub.",
+          "tags": [
+            "Data",
+            "Open"
+          ],
+          "group": "NIWA",
+          "line": 172
+        },
+        {
+          "name": "River Environment Classification (REC) v2.0 (OGC WMS)",
+          "url": "https://geoserver.niwa.co.nz/rec/wms",
+          "description": ".",
+          "tags": [
+            "API",
+            "Open"
+          ],
+          "group": "NIWA",
+          "line": 173
+        },
+        {
+          "name": "Tide forecasts",
+          "url": "https://developer.niwa.co.nz/docs/tide-api/1/overview",
+          "description": ".",
+          "tags": [
+            "API",
+            "Key"
+          ],
+          "group": "NIWA",
+          "line": 174
+        },
+        {
+          "name": "UV forecasts",
+          "url": "https://developer.niwa.co.nz/docs/uv-api/1/overview",
+          "description": ".",
+          "tags": [
+            "API",
+            "Key"
+          ],
+          "group": "NIWA",
+          "line": 175
+        },
+        {
+          "name": "SolarView",
+          "url": "https://developer.niwa.co.nz/docs/solarview-api/1/overview",
+          "description": ".",
+          "tags": [
+            "API",
+            "Key"
+          ],
+          "group": "NIWA",
+          "line": 176
+        },
+        {
+          "name": "GeoNet API",
+          "url": "https://api.geonet.org.nz/",
+          "description": "earthquake, volcano and tsunami data.",
+          "tags": [
+            "API",
+            "Open"
+          ],
+          "group": "GNS Science",
+          "line": 178
+        },
+        {
+          "name": "LRIS Portal - Science/Land GIS Data & APIs",
+          "url": "https://lris.scinfo.org.nz/",
+          "description": ".",
+          "tags": [
+            "Portal",
+            "Open"
+          ],
+          "group": "Landcare Research | Manaaki Whenua",
+          "line": 180
+        },
+        {
+          "name": "Topographic basemaps (OGC WMS)",
+          "url": "https://maps.scinfo.org.nz/basemaps/wms?service=WMS&request=GetCapabilities",
+          "description": "capabilities document for the basemap service; the bare service URL returns an error page.",
+          "tags": [
+            "API",
+            "Open"
+          ],
+          "group": "Landcare Research | Manaaki Whenua",
+          "line": 181
+        }
+      ]
+    },
+    {
+      "name": "Non-government organisations",
+      "entries": [
+        {
+          "name": "Natural resources data",
+          "url": "https://www.lawa.org.nz/",
+          "description": "river quality, air quality and water quantity monitoring.",
+          "tags": [
+            "Data",
+            "Open"
+          ],
+          "group": "Land Air Water Aotearoa (LAWA)",
+          "line": 186
+        },
+        {
+          "name": "Organism Register",
+          "url": "https://www.nzor.org.nz/",
+          "description": "the register of New Zealand organism names. The old data.nzor.org.nz host is gone.",
+          "tags": [
+            "Data",
+            "Open"
+          ],
+          "group": "New Zealand Organisms Register",
+          "line": 188
+        },
+        {
+          "name": "Charts and data",
+          "url": "https://figure.nz/",
+          "description": "curated charts built from official sources; the old public API has been withdrawn.",
+          "tags": [
+            "Data",
+            "Open"
+          ],
+          "group": "Figure NZ (formally Wiki New Zealand)",
+          "line": 190
+        }
+      ]
+    },
+    {
+      "name": "Companies",
+      "entries": [
+        {
+          "name": "Electricity Authority Data & insights",
+          "url": "https://www.ea.govt.nz/data-and-insights/",
+          "description": "the current home for electricity market data, replacing the EMI platform.",
+          "tags": [
+            "Portal",
+            "Open"
+          ],
+          "group": "New Zealand Electricity Industry",
+          "line": 195
+        },
+        {
+          "name": "Market Info (CDS)",
+          "url": "https://www.electricityinfo.co.nz/comitFta/ftapage.main",
+          "description": "the Centralised Dataset, an account is needed.",
+          "tags": [
+            "Data",
+            "Login"
+          ],
+          "group": "New Zealand Electricity Industry",
+          "line": 196
+        },
+        {
+          "name": "Developer Centre",
+          "url": "https://www.nzpost.co.nz/business/ecommerce/developer-resource-centre",
+          "description": "address and parcel APIs.",
+          "tags": [
+            "API",
+            "Key"
+          ],
+          "group": "NZ Post",
+          "line": 198
+        },
+        {
+          "name": "NZ places listings",
+          "url": "https://www.zenbu.co.nz/browse",
+          "description": ".",
+          "tags": [
+            "Data",
+            "Open"
+          ],
+          "group": "Zenbu",
+          "line": 200
+        },
+        {
+          "name": "Vehicle information API",
+          "url": "https://www.carjam.co.nz/dev:page?t=getting-started",
+          "description": ".",
+          "tags": [
+            "API",
+            "Key"
+          ],
+          "group": "Carjam",
+          "line": 202
+        },
+        {
+          "name": "Geospatial data & APIs",
+          "url": "https://koordinates.com/",
+          "description": ".",
+          "tags": [
+            "Portal",
+            "Open"
+          ],
+          "group": "Koordinates",
+          "line": 204
+        },
+        {
+          "name": "Event API",
+          "url": "https://www.eventfinda.co.nz/api/index",
+          "description": ".",
+          "tags": [
+            "API",
+            "Key"
+          ],
+          "group": "Eventfinda",
+          "line": 206
+        },
+        {
+          "name": "TradeMe API",
+          "url": "https://developer.trademe.co.nz/",
+          "description": ".",
+          "tags": [
+            "API",
+            "Key"
+          ],
+          "group": "TradeMe",
+          "line": 208
+        },
+        {
+          "name": "Xero API",
+          "url": "https://developer.xero.com/documentation/getting-started/getting-started-guide/",
+          "description": ".",
+          "tags": [
+            "API",
+            "Key"
+          ],
+          "group": "Xero",
+          "line": 210
+        },
+        {
+          "name": "API documentation",
+          "url": "https://developers.retail.lightspeed.app/documentation",
+          "description": ".",
+          "tags": [
+            "API",
+            "Key"
+          ],
+          "group": "Vend (now Lightspeed)",
+          "line": 212
+        },
+        {
+          "name": "Web Services API",
+          "url": "https://www.psoda.com/download/PsodaWebServicesReference.pdf",
+          "description": ".",
+          "tags": [
+            "Docs",
+            "Open"
+          ],
+          "group": "Psoda",
+          "line": 214
+        },
+        {
+          "name": "ASB API",
+          "url": "https://developer.asb.co.nz/",
+          "description": ".",
+          "tags": [
+            "API",
+            "Key"
+          ],
+          "group": "ASB",
+          "line": 216
+        }
+      ]
+    },
+    {
+      "name": "Acknowledgements",
+      "entries": [
+        {
+          "name": "Open NZ Wiki APIs",
+          "url": "https://web.archive.org/web/20180129103726/https://wiki.open.org.nz/wiki/spaces/main/pages/589878/New+Zealand+APIs",
+          "description": "where this list originally came from.",
+          "tags": [
+            "Docs",
+            "Open",
+            "Archived"
+          ],
+          "group": null,
+          "line": 222
+        },
+        {
+          "name": "Open NZ datasets",
+          "url": "https://web.archive.org/web/20180129035232/http://cat.open.org.nz/category/dataset/",
+          "description": "catalogue of datasets from the same era.",
+          "tags": [
+            "Data",
+            "Open",
+            "Archived"
+          ],
+          "group": null,
+          "line": 223
+        }
+      ]
+    },
+    {
+      "name": "Contributing",
+      "entries": []
+    }
+  ]
+}

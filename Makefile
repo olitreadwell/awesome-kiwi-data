@@ -1,9 +1,11 @@
 SHELL := /bin/bash
 .DEFAULT_GOAL := check
 
-.PHONY: check check-fast list-check toc toc-check stats stats-check sources test links fix hooks-install
+.PHONY: check check-fast list-check toc toc-check stats stats-check sources \
+	export export-check submission-check compliance-audit links links-diff \
+	test fix hooks-install
 
-check: list-check toc-check stats-check test
+check: list-check toc-check stats-check export-check test
 
 check-fast: list-check toc-check
 
@@ -31,8 +33,23 @@ hooks-install:
 test:
 	uv run --project . pytest
 
+export:
+	uv run --project . python -m awesome_list.cli.run_export
+
+export-check:
+	uv run --project . python -m awesome_list.cli.run_export --check
+
+submission-check:
+	uv run --project . python -m awesome_list.cli.run_submission_check
+
+compliance-audit:
+	uv run --project . python -m awesome_list.cli.run_compliance_audit
+
 links:
-	lychee --config lychee.toml README.md
+	uv run --project . python -m awesome_list.cli.run_links
+
+links-diff:
+	uv run --project . python -m awesome_list.cli.run_links --diff
 
 fix:
 	tools/node_modules/.bin/prettier --write README.md 2>/dev/null || true
