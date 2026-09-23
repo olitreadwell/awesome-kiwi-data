@@ -1,102 +1,102 @@
-section,group,name,url,description,tags,line
-Central government and agencies,Statistics New Zealand,Aotearoa Data Explorer,https://explore.data.stats.govt.nz/,"the current Stats NZ data tool, replaced NZ.Stat for most official statistics.",Data Open,55
-Central government and agencies,Statistics New Zealand,Infoshare,https://infoshare.stats.govt.nz/,"time series data, being retired in favour of the Aotearoa Data Explorer.",Data Open Legacy,56
-Central government and agencies,Statistics New Zealand,Stats NZ website,https://www.stats.govt.nz/,"statistical releases, methods and tools.",Portal Open,57
-Central government and agencies,Statistics New Zealand,Stats NZ Geographic Data Service,https://datafinder.stats.govt.nz/,geographic boundary files and other spatial data.,Data Open,58
-Central government and agencies,Ministry of Social Development (MSD),Statistics Page,https://www.msd.govt.nz/about-msd-and-our-work/publications-resources/statistics/index.html,.,Portal Open,60
-Central government and agencies,Ministry of Social Development (MSD),Benefits Data Tables,https://www.msd.govt.nz/about-msd-and-our-work/publications-resources/statistics/benefit/index.html#Datatables6,.,Data Open,61
-Central government and agencies,Ministry of Social Development (MSD),Housing Register,https://www.msd.govt.nz/about-msd-and-our-work/publications-resources/statistics/housing/housing-register.html,"social housing register, published quarterly.",Data Open,62
-Central government and agencies,Ministry of Justice (MoJ),Justice research and data,https://www.justice.govt.nz/justice-sector-policy/research-data/,"conviction and justice sector data, the successor to DataLab.",Data Open,64
-Central government and agencies,Ministry of Health (MoH),Statistics and data sets,https://www.health.govt.nz/monitoring-statistics/statistics-and-data-sets,health survey results and published datasets.,Data Open,66
-Central government and agencies,Ministry of Transport (MoT),Statistics and insights,https://www.transport.govt.nz/statistics-and-insights,"transport statistics, replacing the Transport Monitoring Indicator Framework.",Data Open,68
-Central government and agencies,Ministry for the Environment (MoE),GIS Data & APIs,https://data.mfe.govt.nz/,.,Data Open,70
-Central government and agencies,Department of Conservation (DoC),Maps and data,https://www.doc.govt.nz/our-work/maps-and-data/,"DOC datasets, maps and geospatial services.",Data Open,72
-Central government and agencies,Department of Internal Affairs (DIA) (+ DigitalNZ),Digital NZ API,https://digitalnz.org/developers,search across NZ heritage collections.,API Key,74
-Central government and agencies,Department of Internal Affairs (DIA) (+ DigitalNZ),Data.govt.nz,https://www.data.govt.nz/,government dataset catalogue.,Portal Open,75
-Central government and agencies,Department of Internal Affairs (DIA) (+ DigitalNZ),Government A-Z directory,https://www.govt.nz/organisations/,every government organisation and what it does.,Register Open,76
-Central government and agencies,Department of Internal Affairs (DIA) (+ DigitalNZ),New Zealand Gazette,https://gazette.govt.nz/,"official notices, appointments and public notices, published weekly.",Data Open,77
-Central government and agencies,Department of Internal Affairs (DIA) (+ DigitalNZ),Papers Past,https://natlib.govt.nz/about-us/open-data/papers-past-metadata,"digitised newspapers and magazines, with metadata.",Data Open,78
-Central government and agencies,Department of Internal Affairs (DIA) (+ DigitalNZ),Turnbull Unpublished Collections,https://natlib.govt.nz/about-us/open-data/turnbull-unpublished-collections-metadata,metadata for unpublished material held by the Turnbull Library.,Data Open,79
-Central government and agencies,Department of Internal Affairs (DIA) (+ DigitalNZ),DigitalNZ API examples,https://digitalnz.org/developers/api-examples-in-use,"worked examples for the DigitalNZ API, replacing the retired WWI examples pack.",Docs Open,80
-Central government and agencies,Department of Internal Affairs (DIA) (+ DigitalNZ),Publications New Zealand,https://natlib.govt.nz/about-us/open-data/publications-nz-metadata,metadata for New Zealand publications.,Data Open,81
-Central government and agencies,Department of Internal Affairs (DIA) (+ DigitalNZ),Index New Zealand,https://natlib.govt.nz/about-us/open-data/innz-metadata,metadata for New Zealand journals and newspapers.,Data Open,82
-Central government and agencies,Department of Internal Affairs (DIA) (+ DigitalNZ),Alexander Turnbull Library image downloads,https://natlib.govt.nz/photos?il%5batl_free_download%5d=true,free downloads of out-of-copyright images.,Data Open,83
-Central government and agencies,Inland Revenue (IRD),Tax Statistics,https://www.ird.govt.nz/about-us/tax-statistics,.,Data Open,85
-Central government and agencies,The Treasury,Budgets and forecasts,https://www.treasury.govt.nz/information-and-services/financial-management-and-advice/budgets-and-forecasts,Budget documents and Economic and Fiscal Update tables and charts.,Data Open,87
-Central government and agencies,The Treasury,Living Standards Framework dashboard,https://lsfdashboard.treasury.govt.nz/wellbeing/,wellbeing indicators for New Zealand.,Data Open,88
-Central government and agencies,Land Information New Zealand (LINZ),LINZ Data Service,https://data.linz.govt.nz/,"authoritative topographic, hydrographic, survey, title, street address, crown pastoral land, aerial imagery and geodetic data.",Data Open,90
-Central government and agencies,Education Counts,National data collections,https://www.educationcounts.govt.nz/data-services/national,.,Data Open,92
-Central government and agencies,Education Counts,Statistics,https://www.educationcounts.govt.nz/statistics,.,Data Open,93
-Central government and agencies,Herenga ā Nuku Aotearoa (Walking Access Commission),Public Access Areas,https://catalogue.data.govt.nz/dataset/public-access-areas,"where the public has a right of access across land, with service links.",Data Open,95
-Central government and agencies,Herenga ā Nuku Aotearoa (Walking Access Commission),Outdoor access maps,https://www.herengaanuku.govt.nz/maps/outdoor-access-maps,"the live WAMS maps, and where the public access data is served from.",Portal Open,96
-Central government and agencies,New Zealand Police,Crime Statistics,https://www.police.govt.nz/about-us/publications-statistics/data-and-statistics,.,Data Open,98
-Central government and agencies,New Zealand Qualifications Authority (NZQA),Secondary School Statistics,https://www2.nzqa.govt.nz/ncea/understanding-secondary-quals/secondary-school-stats/,.,Data Open,100
-Central government and agencies,New Zealand Transport Agency (NZTA),NZTA open data portal,https://opendata-nzta.opendata.arcgis.com/,"36 transport datasets, including the former InfoConnect feeds. The InfoConnect API pages were retired and now 404.",Portal Open,102
-Central government and agencies,New Zealand Transport Agency (NZTA),Highway information,https://opendata-nzta.opendata.arcgis.com/datasets/NZTA::nzta-highway-information,near real time state highway conditions.,Data Open,103
-Central government and agencies,New Zealand Transport Agency (NZTA),Road events,https://opendata-nzta.opendata.arcgis.com/datasets/NZTA::road-events,"closures, crashes and hazards.",Data Open,104
-Central government and agencies,New Zealand Transport Agency (NZTA),TMS daily traffic counts API,https://opendata-nzta.opendata.arcgis.com/datasets/NZTA::tms-daily-traffic-counts-api,.,API Open,105
-Central government and agencies,New Zealand Transport Agency (NZTA),State highway traffic monitoring sites,https://opendata-nzta.opendata.arcgis.com/datasets/NZTA::state-highway-traffic-monitoring-sites,.,Data Open,106
-Central government and agencies,New Zealand Transport Agency (NZTA),Motor Vehicle Register,https://opendata-nzta.opendata.arcgis.com/datasets/NZTA::motor-vehicle-register,.,Data Open,107
-Central government and agencies,New Zealand Transport Agency (NZTA),National Speed Limit Register (NSLR),https://opendata-nzta.opendata.arcgis.com/datasets/NZTA::national-speed-limit-register-nslr,.,Data Open,108
-Central government and agencies,New Zealand Transport Agency (NZTA),Crash Analysis System (CAS),https://www.nzta.govt.nz/resources/crash-analysis-system-data/index.html,"how to request crash data, with the open dataset linked from the portal.",Data Open,109
-Central government and agencies,New Zealand Transport Agency (NZTA),Aerial Imagery,https://koordinates.com/from/nzta/data/,.,Data Open,110
-Central government and agencies,"Ministry of Business, Innovation and Employment (MBIE)",Business API portal,https://portal.api.business.govt.nz/,"MBIE register APIs, subscription required.",Portal Key,112
-Central government and agencies,"Ministry of Business, Innovation and Employment (MBIE)",Companies Register,https://portal.api.business.govt.nz/api/companies-register,.,API Key,113
-Central government and agencies,"Ministry of Business, Innovation and Employment (MBIE)",Intellectual Property Office (IPONZ),https://portal.api.business.govt.nz/api/iponz,.,API Key,114
-Central government and agencies,"Ministry of Business, Innovation and Employment (MBIE)",Insolvency Register,https://portal.api.business.govt.nz/api/insolvency-register,.,API Key,115
-Central government and agencies,"Ministry of Business, Innovation and Employment (MBIE)",Licensed Building Practitioners (LBP),https://portal.api.business.govt.nz/api/lbp,.,API Key,116
-Central government and agencies,"Ministry of Business, Innovation and Employment (MBIE)",Motor Vehicle Traders Register (MVTR),https://portal.api.business.govt.nz/api/motor-vehicle-traders-register,.,API Key,117
-Central government and agencies,"Ministry of Business, Innovation and Employment (MBIE)",New Zealand Business Number (NZBN),https://portal.api.business.govt.nz/api/nzbn,.,API Key,118
-Central government and agencies,"Ministry of Business, Innovation and Employment (MBIE)",Personal Property Securities Register (PPSR),https://portal.api.business.govt.nz/api/ppsr,.,API Key,119
-Central government and agencies,"Ministry of Business, Innovation and Employment (MBIE)",Radio Spectrum Management (RSM),https://portal.api.business.govt.nz/api/radiospectrum-management,.,API Key,120
-Central government and agencies,"Ministry of Business, Innovation and Employment (MBIE)",Tenancy Bond,https://portal.api.business.govt.nz/api/tenancy-bond,.,API Key,121
-Central government and agencies,"Ministry of Business, Innovation and Employment (MBIE)",Petroleum and Minerals (NZPAM),https://www.nzpam.govt.nz/permits/minerals,minerals permits. There is no NZPAM API in the MBIE portal.,Register Open,122
-Central government and agencies,"Ministry of Business, Innovation and Employment (MBIE)",NZPAM Geodata Catalogue,https://geodata.nzpam.govt.nz/,"petroleum and minerals geoscience data, the NZPAM data store.",Data Open,123
-Central government and agencies,Department of Corrections,Research,https://www.corrections.govt.nz/resources/research,prison population and corrections statistics.,Data Open,125
-Central government and agencies,Immigration New Zealand,Research and statistics,https://www.immigration.govt.nz/about-us/research-and-statistics/,visa and migration statistics.,Data Open,127
-Central government and agencies,Parliamentary Counsel Office,New Zealand Legislation,https://www.legislation.govt.nz/,"official Acts, regulations and Bills.",Register Open,129
-Tourism and economic data,,Regional Tourism Estimates,https://www.mbie.govt.nz/immigration-and-tourism/tourism-research-and-data/tourism-data-releases/previous-tourism-data-releases/regional-tourism-estimates,annual visitor spend by region.,Data Open,133
-Tourism and economic data,,Monthly Regional Tourism Estimates,https://www.mbie.govt.nz/immigration-and-tourism/tourism-research-and-data/tourism-data-releases/monthly-regional-tourism-estimates,monthly visitor spend by region.,Data Open,134
-Tourism and economic data,,Tourism data releases,https://www.mbie.govt.nz/immigration-and-tourism/tourism-research-and-data/tourism-data-releases,forecasts and other tourism releases.,Portal Open,135
-Tourism and economic data,Reserve Bank of New Zealand,Statistics,https://www.rbnz.govt.nz/statistics,"monetary, financial and economic statistics.",Data Open,137
-Tourism and economic data,New Zealand Institute of Economic Research,Data1850,https://www.nzier.org.nz/data-1850,long-term economic data.,Data Open,139
-Regional councils,Environment Canterbury & Partners (ECAN),Canterbury Maps open data,https://opendata.canterburymaps.govt.nz/,.,Data Open,144
-Regional councils,Greater Wellington Regional Council (GWRC),GIS Data & APIs,https://koordinates.com/from/gwrc/data/,.,Data Open,146
-City and district councils,Auckland Council,Auckland Open Data,https://aucklandopendata-aucklandcouncil.opendata.arcgis.com/,.,Portal Open,151
-City and district councils,Auckland Council,Auckland Transport API,https://dev-portal.at.govt.nz/,.,API Key,152
-City and district councils,Auckland Council,Auckland Transport Open GIS Data,https://data-atgis.opendata.arcgis.com/,.,Data Open,153
-City and district councils,Wellington City Council (WCC),GIS Data,https://data-wcc.opendata.arcgis.com/,.,Data Open,155
-City and district councils,Wellington City Council (WCC),Metlink Open Data,https://opendata.metlink.org.nz/,"GTFS timetables and realtime feeds, registration required.",Data Key,156
-City and district councils,Christchurch City Council,Open Data Portal,https://opendata-christchurchcity.hub.arcgis.com/,"council datasets across transport, land and services.",Portal Open,158
-City and district councils,Whanganui District Council,Whanganui GeoSpatial,https://geonode.whanganui.govt.nz/,council GIS datasets.,Data Open,160
-City and district councils,Whanganui District Council,Open data on Koordinates,https://koordinates.com/from/whanganui-district-council/data/,.,Data Open,161
-City and district councils,Whanganui District Council,Cemetery Search,https://www.whanganui.govt.nz/Services/Cemeteries-and-Crematorium/Cemetery-Search,.,Register Open,162
-City and district councils,Whanganui District Council,Property and Rating Search,https://www.whanganui.govt.nz/Property-and-Rates/Rates/Property-Rating-Search,.,Register Open,163
-City and district councils,Whanganui District Council,Food Safety,https://www.whanganui.govt.nz/Business/Food-Safety,food business registration; grading searches for all councils are on the MPI food register.,Docs Open,164
-City and district councils,Porirua City Council,GIS Data & APIs,https://koordinates.com/from/porirua-city-council/data/,.,Data Open,166
-Crown Research Institutes (CRIs),NIWA,DataHub,https://data.niwa.co.nz/,NIWA's open data platform.,Portal Open,171
-Crown Research Institutes (CRIs),NIWA,CliFlo Climate Database,https://data.niwa.co.nz/pages/clidb-on-datahub,"climate observations, now hosted on DataHub.",Data Open,172
-Crown Research Institutes (CRIs),NIWA,River Environment Classification (REC) v2.0 (OGC WMS),https://geoserver.niwa.co.nz/rec/wms,.,API Open,173
-Crown Research Institutes (CRIs),NIWA,Tide forecasts,https://developer.niwa.co.nz/docs/tide-api/1/overview,.,API Key,174
-Crown Research Institutes (CRIs),NIWA,UV forecasts,https://developer.niwa.co.nz/docs/uv-api/1/overview,.,API Key,175
-Crown Research Institutes (CRIs),NIWA,SolarView,https://developer.niwa.co.nz/docs/solarview-api/1/overview,.,API Key,176
-Crown Research Institutes (CRIs),GNS Science,GeoNet API,https://api.geonet.org.nz/,"earthquake, volcano and tsunami data.",API Open,178
-Crown Research Institutes (CRIs),Landcare Research | Manaaki Whenua,LRIS Portal - Science/Land GIS Data & APIs,https://lris.scinfo.org.nz/,.,Portal Open,180
-Crown Research Institutes (CRIs),Landcare Research | Manaaki Whenua,Topographic basemaps (OGC WMS),https://maps.scinfo.org.nz/basemaps/wms?service=WMS&request=GetCapabilities,capabilities document for the basemap service; the bare service URL returns an error page.,API Open,181
-Non-government organisations,Land Air Water Aotearoa (LAWA),Natural resources data,https://www.lawa.org.nz/,"river quality, air quality and water quantity monitoring.",Data Open,186
-Non-government organisations,New Zealand Organisms Register,Organism Register,https://www.nzor.org.nz/,the register of New Zealand organism names. The old data.nzor.org.nz host is gone.,Data Open,188
-Non-government organisations,Figure NZ (formally Wiki New Zealand),Charts and data,https://figure.nz/,curated charts built from official sources; the old public API has been withdrawn.,Data Open,190
-Companies,New Zealand Electricity Industry,Electricity Authority Data & insights,https://www.ea.govt.nz/data-and-insights/,"the current home for electricity market data, replacing the EMI platform.",Portal Open,195
-Companies,New Zealand Electricity Industry,Market Info (CDS),https://www.electricityinfo.co.nz/comitFta/ftapage.main,"the Centralised Dataset, an account is needed.",Data Login,196
-Companies,NZ Post,Developer Centre,https://www.nzpost.co.nz/business/ecommerce/developer-resource-centre,address and parcel APIs.,API Key,198
-Companies,Zenbu,NZ places listings,https://www.zenbu.co.nz/browse,.,Data Open,200
-Companies,Carjam,Vehicle information API,https://www.carjam.co.nz/dev:page?t=getting-started,.,API Key,202
-Companies,Koordinates,Geospatial data & APIs,https://koordinates.com/,.,Portal Open,204
-Companies,Eventfinda,Event API,https://www.eventfinda.co.nz/api/index,.,API Key,206
-Companies,TradeMe,TradeMe API,https://developer.trademe.co.nz/,.,API Key,208
-Companies,Xero,Xero API,https://developer.xero.com/documentation/getting-started/getting-started-guide/,.,API Key,210
-Companies,Vend (now Lightspeed),API documentation,https://developers.retail.lightspeed.app/documentation,.,API Key,212
-Companies,Psoda,Web Services API,https://www.psoda.com/download/PsodaWebServicesReference.pdf,.,Docs Open,214
-Companies,ASB,ASB API,https://developer.asb.co.nz/,.,API Key,216
-Acknowledgements,,Open NZ Wiki APIs,https://web.archive.org/web/20180129103726/https://wiki.open.org.nz/wiki/spaces/main/pages/589878/New+Zealand+APIs,where this list originally came from.,Docs Open Archived,222
-Acknowledgements,,Open NZ datasets,https://web.archive.org/web/20180129035232/http://cat.open.org.nz/category/dataset/,catalogue of datasets from the same era.,Data Open Archived,223
+section,group,name,url,description,tags,stars,last_push,line
+Central government and agencies,Statistics New Zealand,Aotearoa Data Explorer,https://explore.data.stats.govt.nz/,"the current Stats NZ data tool, replaced NZ.Stat for most official statistics.",Data Open,,,55
+Central government and agencies,Statistics New Zealand,Infoshare,https://infoshare.stats.govt.nz/,"time series data, being retired in favour of the Aotearoa Data Explorer.",Data Open Legacy,,,56
+Central government and agencies,Statistics New Zealand,Stats NZ website,https://www.stats.govt.nz/,"statistical releases, methods and tools.",Portal Open,,,57
+Central government and agencies,Statistics New Zealand,Stats NZ Geographic Data Service,https://datafinder.stats.govt.nz/,geographic boundary files and other spatial data.,Data Open,,,58
+Central government and agencies,Ministry of Social Development (MSD),Statistics Page,https://www.msd.govt.nz/about-msd-and-our-work/publications-resources/statistics/index.html,.,Portal Open,,,60
+Central government and agencies,Ministry of Social Development (MSD),Benefits Data Tables,https://www.msd.govt.nz/about-msd-and-our-work/publications-resources/statistics/benefit/index.html#Datatables6,.,Data Open,,,61
+Central government and agencies,Ministry of Social Development (MSD),Housing Register,https://www.msd.govt.nz/about-msd-and-our-work/publications-resources/statistics/housing/housing-register.html,"social housing register, published quarterly.",Data Open,,,62
+Central government and agencies,Ministry of Justice (MoJ),Justice research and data,https://www.justice.govt.nz/justice-sector-policy/research-data/,"conviction and justice sector data, the successor to DataLab.",Data Open,,,64
+Central government and agencies,Ministry of Health (MoH),Statistics and data sets,https://www.health.govt.nz/monitoring-statistics/statistics-and-data-sets,health survey results and published datasets.,Data Open,,,66
+Central government and agencies,Ministry of Transport (MoT),Statistics and insights,https://www.transport.govt.nz/statistics-and-insights,"transport statistics, replacing the Transport Monitoring Indicator Framework.",Data Open,,,68
+Central government and agencies,Ministry for the Environment (MoE),GIS Data & APIs,https://data.mfe.govt.nz/,.,Data Open,,,70
+Central government and agencies,Department of Conservation (DoC),Maps and data,https://www.doc.govt.nz/our-work/maps-and-data/,"DOC datasets, maps and geospatial services.",Data Open,,,72
+Central government and agencies,Department of Internal Affairs (DIA) (+ DigitalNZ),Digital NZ API,https://digitalnz.org/developers,search across NZ heritage collections.,API Key,,,74
+Central government and agencies,Department of Internal Affairs (DIA) (+ DigitalNZ),Data.govt.nz,https://www.data.govt.nz/,government dataset catalogue.,Portal Open,,,75
+Central government and agencies,Department of Internal Affairs (DIA) (+ DigitalNZ),Government A-Z directory,https://www.govt.nz/organisations/,every government organisation and what it does.,Register Open,,,76
+Central government and agencies,Department of Internal Affairs (DIA) (+ DigitalNZ),New Zealand Gazette,https://gazette.govt.nz/,"official notices, appointments and public notices, published weekly.",Data Open,,,77
+Central government and agencies,Department of Internal Affairs (DIA) (+ DigitalNZ),Papers Past,https://natlib.govt.nz/about-us/open-data/papers-past-metadata,"digitised newspapers and magazines, with metadata.",Data Open,,,78
+Central government and agencies,Department of Internal Affairs (DIA) (+ DigitalNZ),Turnbull Unpublished Collections,https://natlib.govt.nz/about-us/open-data/turnbull-unpublished-collections-metadata,metadata for unpublished material held by the Turnbull Library.,Data Open,,,79
+Central government and agencies,Department of Internal Affairs (DIA) (+ DigitalNZ),DigitalNZ API examples,https://digitalnz.org/developers/api-examples-in-use,"worked examples for the DigitalNZ API, replacing the retired WWI examples pack.",Docs Open,,,80
+Central government and agencies,Department of Internal Affairs (DIA) (+ DigitalNZ),Publications New Zealand,https://natlib.govt.nz/about-us/open-data/publications-nz-metadata,metadata for New Zealand publications.,Data Open,,,81
+Central government and agencies,Department of Internal Affairs (DIA) (+ DigitalNZ),Index New Zealand,https://natlib.govt.nz/about-us/open-data/innz-metadata,metadata for New Zealand journals and newspapers.,Data Open,,,82
+Central government and agencies,Department of Internal Affairs (DIA) (+ DigitalNZ),Alexander Turnbull Library image downloads,https://natlib.govt.nz/photos?il%5batl_free_download%5d=true,free downloads of out-of-copyright images.,Data Open,,,83
+Central government and agencies,Inland Revenue (IRD),Tax Statistics,https://www.ird.govt.nz/about-us/tax-statistics,.,Data Open,,,85
+Central government and agencies,The Treasury,Budgets and forecasts,https://www.treasury.govt.nz/information-and-services/financial-management-and-advice/budgets-and-forecasts,Budget documents and Economic and Fiscal Update tables and charts.,Data Open,,,87
+Central government and agencies,The Treasury,Living Standards Framework dashboard,https://lsfdashboard.treasury.govt.nz/wellbeing/,wellbeing indicators for New Zealand.,Data Open,,,88
+Central government and agencies,Land Information New Zealand (LINZ),LINZ Data Service,https://data.linz.govt.nz/,"authoritative topographic, hydrographic, survey, title, street address, crown pastoral land, aerial imagery and geodetic data.",Data Open,,,90
+Central government and agencies,Education Counts,National data collections,https://www.educationcounts.govt.nz/data-services/national,.,Data Open,,,92
+Central government and agencies,Education Counts,Statistics,https://www.educationcounts.govt.nz/statistics,.,Data Open,,,93
+Central government and agencies,Herenga ā Nuku Aotearoa (Walking Access Commission),Public Access Areas,https://catalogue.data.govt.nz/dataset/public-access-areas,"where the public has a right of access across land, with service links.",Data Open,,,95
+Central government and agencies,Herenga ā Nuku Aotearoa (Walking Access Commission),Outdoor access maps,https://www.herengaanuku.govt.nz/maps/outdoor-access-maps,"the live WAMS maps, and where the public access data is served from.",Portal Open,,,96
+Central government and agencies,New Zealand Police,Crime Statistics,https://www.police.govt.nz/about-us/publications-statistics/data-and-statistics,.,Data Open,,,98
+Central government and agencies,New Zealand Qualifications Authority (NZQA),Secondary School Statistics,https://www2.nzqa.govt.nz/ncea/understanding-secondary-quals/secondary-school-stats/,.,Data Open,,,100
+Central government and agencies,New Zealand Transport Agency (NZTA),NZTA open data portal,https://opendata-nzta.opendata.arcgis.com/,"36 transport datasets, including the former InfoConnect feeds. The InfoConnect API pages were retired and now 404.",Portal Open,,,102
+Central government and agencies,New Zealand Transport Agency (NZTA),Highway information,https://opendata-nzta.opendata.arcgis.com/datasets/NZTA::nzta-highway-information,near real time state highway conditions.,Data Open,,,103
+Central government and agencies,New Zealand Transport Agency (NZTA),Road events,https://opendata-nzta.opendata.arcgis.com/datasets/NZTA::road-events,"closures, crashes and hazards.",Data Open,,,104
+Central government and agencies,New Zealand Transport Agency (NZTA),TMS daily traffic counts API,https://opendata-nzta.opendata.arcgis.com/datasets/NZTA::tms-daily-traffic-counts-api,.,API Open,,,105
+Central government and agencies,New Zealand Transport Agency (NZTA),State highway traffic monitoring sites,https://opendata-nzta.opendata.arcgis.com/datasets/NZTA::state-highway-traffic-monitoring-sites,.,Data Open,,,106
+Central government and agencies,New Zealand Transport Agency (NZTA),Motor Vehicle Register,https://opendata-nzta.opendata.arcgis.com/datasets/NZTA::motor-vehicle-register,.,Data Open,,,107
+Central government and agencies,New Zealand Transport Agency (NZTA),National Speed Limit Register (NSLR),https://opendata-nzta.opendata.arcgis.com/datasets/NZTA::national-speed-limit-register-nslr,.,Data Open,,,108
+Central government and agencies,New Zealand Transport Agency (NZTA),Crash Analysis System (CAS),https://www.nzta.govt.nz/resources/crash-analysis-system-data/index.html,"how to request crash data, with the open dataset linked from the portal.",Data Open,,,109
+Central government and agencies,New Zealand Transport Agency (NZTA),Aerial Imagery,https://koordinates.com/from/nzta/data/,.,Data Open,,,110
+Central government and agencies,"Ministry of Business, Innovation and Employment (MBIE)",Business API portal,https://portal.api.business.govt.nz/,"MBIE register APIs, subscription required.",Portal Key,,,112
+Central government and agencies,"Ministry of Business, Innovation and Employment (MBIE)",Companies Register,https://portal.api.business.govt.nz/api/companies-register,.,API Key,,,113
+Central government and agencies,"Ministry of Business, Innovation and Employment (MBIE)",Intellectual Property Office (IPONZ),https://portal.api.business.govt.nz/api/iponz,.,API Key,,,114
+Central government and agencies,"Ministry of Business, Innovation and Employment (MBIE)",Insolvency Register,https://portal.api.business.govt.nz/api/insolvency-register,.,API Key,,,115
+Central government and agencies,"Ministry of Business, Innovation and Employment (MBIE)",Licensed Building Practitioners (LBP),https://portal.api.business.govt.nz/api/lbp,.,API Key,,,116
+Central government and agencies,"Ministry of Business, Innovation and Employment (MBIE)",Motor Vehicle Traders Register (MVTR),https://portal.api.business.govt.nz/api/motor-vehicle-traders-register,.,API Key,,,117
+Central government and agencies,"Ministry of Business, Innovation and Employment (MBIE)",New Zealand Business Number (NZBN),https://portal.api.business.govt.nz/api/nzbn,.,API Key,,,118
+Central government and agencies,"Ministry of Business, Innovation and Employment (MBIE)",Personal Property Securities Register (PPSR),https://portal.api.business.govt.nz/api/ppsr,.,API Key,,,119
+Central government and agencies,"Ministry of Business, Innovation and Employment (MBIE)",Radio Spectrum Management (RSM),https://portal.api.business.govt.nz/api/radiospectrum-management,.,API Key,,,120
+Central government and agencies,"Ministry of Business, Innovation and Employment (MBIE)",Tenancy Bond,https://portal.api.business.govt.nz/api/tenancy-bond,.,API Key,,,121
+Central government and agencies,"Ministry of Business, Innovation and Employment (MBIE)",Petroleum and Minerals (NZPAM),https://www.nzpam.govt.nz/permits/minerals,minerals permits. There is no NZPAM API in the MBIE portal.,Register Open,,,122
+Central government and agencies,"Ministry of Business, Innovation and Employment (MBIE)",NZPAM Geodata Catalogue,https://geodata.nzpam.govt.nz/,"petroleum and minerals geoscience data, the NZPAM data store.",Data Open,,,123
+Central government and agencies,Department of Corrections,Research,https://www.corrections.govt.nz/resources/research,prison population and corrections statistics.,Data Open,,,125
+Central government and agencies,Immigration New Zealand,Research and statistics,https://www.immigration.govt.nz/about-us/research-and-statistics/,visa and migration statistics.,Data Open,,,127
+Central government and agencies,Parliamentary Counsel Office,New Zealand Legislation,https://www.legislation.govt.nz/,"official Acts, regulations and Bills.",Register Open,,,129
+Tourism and economic data,,Regional Tourism Estimates,https://www.mbie.govt.nz/immigration-and-tourism/tourism-research-and-data/tourism-data-releases/previous-tourism-data-releases/regional-tourism-estimates,annual visitor spend by region.,Data Open,,,133
+Tourism and economic data,,Monthly Regional Tourism Estimates,https://www.mbie.govt.nz/immigration-and-tourism/tourism-research-and-data/tourism-data-releases/monthly-regional-tourism-estimates,monthly visitor spend by region.,Data Open,,,134
+Tourism and economic data,,Tourism data releases,https://www.mbie.govt.nz/immigration-and-tourism/tourism-research-and-data/tourism-data-releases,forecasts and other tourism releases.,Portal Open,,,135
+Tourism and economic data,Reserve Bank of New Zealand,Statistics,https://www.rbnz.govt.nz/statistics,"monetary, financial and economic statistics.",Data Open,,,137
+Tourism and economic data,New Zealand Institute of Economic Research,Data1850,https://www.nzier.org.nz/data-1850,long-term economic data.,Data Open,,,139
+Regional councils,Environment Canterbury & Partners (ECAN),Canterbury Maps open data,https://opendata.canterburymaps.govt.nz/,.,Data Open,,,144
+Regional councils,Greater Wellington Regional Council (GWRC),GIS Data & APIs,https://koordinates.com/from/gwrc/data/,.,Data Open,,,146
+City and district councils,Auckland Council,Auckland Open Data,https://aucklandopendata-aucklandcouncil.opendata.arcgis.com/,.,Portal Open,,,151
+City and district councils,Auckland Council,Auckland Transport API,https://dev-portal.at.govt.nz/,.,API Key,,,152
+City and district councils,Auckland Council,Auckland Transport Open GIS Data,https://data-atgis.opendata.arcgis.com/,.,Data Open,,,153
+City and district councils,Wellington City Council (WCC),GIS Data,https://data-wcc.opendata.arcgis.com/,.,Data Open,,,155
+City and district councils,Wellington City Council (WCC),Metlink Open Data,https://opendata.metlink.org.nz/,"GTFS timetables and realtime feeds, registration required.",Data Key,,,156
+City and district councils,Christchurch City Council,Open Data Portal,https://opendata-christchurchcity.hub.arcgis.com/,"council datasets across transport, land and services.",Portal Open,,,158
+City and district councils,Whanganui District Council,Whanganui GeoSpatial,https://geonode.whanganui.govt.nz/,council GIS datasets.,Data Open,,,160
+City and district councils,Whanganui District Council,Open data on Koordinates,https://koordinates.com/from/whanganui-district-council/data/,.,Data Open,,,161
+City and district councils,Whanganui District Council,Cemetery Search,https://www.whanganui.govt.nz/Services/Cemeteries-and-Crematorium/Cemetery-Search,.,Register Open,,,162
+City and district councils,Whanganui District Council,Property and Rating Search,https://www.whanganui.govt.nz/Property-and-Rates/Rates/Property-Rating-Search,.,Register Open,,,163
+City and district councils,Whanganui District Council,Food Safety,https://www.whanganui.govt.nz/Business/Food-Safety,food business registration; grading searches for all councils are on the MPI food register.,Docs Open,,,164
+City and district councils,Porirua City Council,GIS Data & APIs,https://koordinates.com/from/porirua-city-council/data/,.,Data Open,,,166
+Crown Research Institutes (CRIs),NIWA,DataHub,https://data.niwa.co.nz/,NIWA's open data platform.,Portal Open,,,171
+Crown Research Institutes (CRIs),NIWA,CliFlo Climate Database,https://data.niwa.co.nz/pages/clidb-on-datahub,"climate observations, now hosted on DataHub.",Data Open,,,172
+Crown Research Institutes (CRIs),NIWA,River Environment Classification (REC) v2.0 (OGC WMS),https://geoserver.niwa.co.nz/rec/wms,.,API Open,,,173
+Crown Research Institutes (CRIs),NIWA,Tide forecasts,https://developer.niwa.co.nz/docs/tide-api/1/overview,.,API Key,,,174
+Crown Research Institutes (CRIs),NIWA,UV forecasts,https://developer.niwa.co.nz/docs/uv-api/1/overview,.,API Key,,,175
+Crown Research Institutes (CRIs),NIWA,SolarView,https://developer.niwa.co.nz/docs/solarview-api/1/overview,.,API Key,,,176
+Crown Research Institutes (CRIs),GNS Science,GeoNet API,https://api.geonet.org.nz/,"earthquake, volcano and tsunami data.",API Open,,,178
+Crown Research Institutes (CRIs),Landcare Research | Manaaki Whenua,LRIS Portal - Science/Land GIS Data & APIs,https://lris.scinfo.org.nz/,.,Portal Open,,,180
+Crown Research Institutes (CRIs),Landcare Research | Manaaki Whenua,Topographic basemaps (OGC WMS),https://maps.scinfo.org.nz/basemaps/wms?service=WMS&request=GetCapabilities,capabilities document for the basemap service; the bare service URL returns an error page.,API Open,,,181
+Non-government organisations,Land Air Water Aotearoa (LAWA),Natural resources data,https://www.lawa.org.nz/,"river quality, air quality and water quantity monitoring.",Data Open,,,186
+Non-government organisations,New Zealand Organisms Register,Organism Register,https://www.nzor.org.nz/,the register of New Zealand organism names. The old data.nzor.org.nz host is gone.,Data Open,,,188
+Non-government organisations,Figure NZ (formally Wiki New Zealand),Charts and data,https://figure.nz/,curated charts built from official sources; the old public API has been withdrawn.,Data Open,,,190
+Companies,New Zealand Electricity Industry,Electricity Authority Data & insights,https://www.ea.govt.nz/data-and-insights/,"the current home for electricity market data, replacing the EMI platform.",Portal Open,,,195
+Companies,New Zealand Electricity Industry,Market Info (CDS),https://www.electricityinfo.co.nz/comitFta/ftapage.main,"the Centralised Dataset, an account is needed.",Data Login,,,196
+Companies,NZ Post,Developer Centre,https://www.nzpost.co.nz/business/ecommerce/developer-resource-centre,address and parcel APIs.,API Key,,,198
+Companies,Zenbu,NZ places listings,https://www.zenbu.co.nz/browse,.,Data Open,,,200
+Companies,Carjam,Vehicle information API,https://www.carjam.co.nz/dev:page?t=getting-started,.,API Key,,,202
+Companies,Koordinates,Geospatial data & APIs,https://koordinates.com/,.,Portal Open,,,204
+Companies,Eventfinda,Event API,https://www.eventfinda.co.nz/api/index,.,API Key,,,206
+Companies,TradeMe,TradeMe API,https://developer.trademe.co.nz/,.,API Key,,,208
+Companies,Xero,Xero API,https://developer.xero.com/documentation/getting-started/getting-started-guide/,.,API Key,,,210
+Companies,Vend (now Lightspeed),API documentation,https://developers.retail.lightspeed.app/documentation,.,API Key,,,212
+Companies,Psoda,Web Services API,https://www.psoda.com/download/PsodaWebServicesReference.pdf,.,Docs Open,,,214
+Companies,ASB,ASB API,https://developer.asb.co.nz/,.,API Key,,,216
+Acknowledgements,,Open NZ Wiki APIs,https://web.archive.org/web/20180129103726/https://wiki.open.org.nz/wiki/spaces/main/pages/589878/New+Zealand+APIs,where this list originally came from.,Docs Open Archived,,,222
+Acknowledgements,,Open NZ datasets,https://web.archive.org/web/20180129035232/http://cat.open.org.nz/category/dataset/,catalogue of datasets from the same era.,Data Open Archived,,,223
