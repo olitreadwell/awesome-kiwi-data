@@ -56,14 +56,53 @@ DESC_SEP_RE = re.compile(r"^[-–—:]\s*")
 TAG_TYPE = ("API", "Data", "Portal", "Register", "Docs")
 TAG_ACCESS = ("Open", "Key", "Login", "Paid")
 TAG_STATUS = ("Legacy", "Archived")
+
+# One glyph per tag value, so a tag can be told apart without relying on
+# colour. Type shapes say what a thing is, access shapes are a fill
+# progression (empty = open, solid = paid), status shapes say whether the
+# tool is still current. The site colours the glyph by axis (see TAG_AXIS).
+TAG_GLYPHS = {
+    "API": "⇄",
+    "Data": "▦",
+    "Portal": "☰",
+    "Register": "☑",
+    "Docs": "¶",
+    "Open": "○",
+    "Key": "◑",
+    "Login": "◕",
+    "Paid": "●",
+    "Legacy": "⟳",
+    "Archived": "▣",
+}
+# Which axis a tag belongs to. Drives the chip colour, so shape carries the
+# meaning and colour is only a reinforcement.
+TAG_AXIS = (
+    {tag: "type" for tag in TAG_TYPE}
+    | {tag: "access" for tag in TAG_ACCESS}
+    | {tag: "status" for tag in TAG_STATUS}
+)
+
+# An optional leading glyph, so "Data - Open" and the glyph-prefixed form
+# both parse. Built from the real glyph set to avoid eating list separators.
+GLYPH_OPT = r"(?:(?:[" + "".join(re.escape(g) for g in TAG_GLYPHS.values()) + r"])\s*)?"
 TAG_RE = re.compile(
-    r"^(?P<type>API|Data|Portal|Register|Docs)"
-    r"(?:\s+-\s+(?P<access>Open|Key|Login|Paid))?"
-    r"(?:\s+-\s+(?P<status>Legacy|Archived))?"
-    r"(?:\s+-\s+(?P<desc>.+?))?"
+    rf"^{GLYPH_OPT}(?P<type>API|Data|Portal|Register|Docs)"
+    rf"(?:\s+-\s+{GLYPH_OPT}(?P<access>Open|Key|Login|Paid))?"
+    rf"(?:\s+-\s+{GLYPH_OPT}(?P<status>Legacy|Archived))?"
+    rf"(?:\s+-\s+(?P<desc>.+?))?"
     r"\.?$",
     re.DOTALL,
 )
+
+
+def tag_chip_html(tag: str) -> str:
+    """Render one tag as a glyph chip, coloured by axis."""
+    axis = TAG_AXIS.get(tag, "type")
+    return (
+        f'<span class="tag tag-{axis} tag-{tag.lower()}">'
+        f'<span class="tag-glyph" aria-hidden="true">{esc(TAG_GLYPHS.get(tag, ""))}</span>'
+        f"{esc(tag)}</span>"
+    )
 
 # Sections that are meta content, rendered at the bottom of the page rather
 # than inside the category they appear under in the README.
@@ -79,6 +118,36 @@ def slugify(name: str) -> str:
     """Turn a heading into a URL fragment id."""
     slug = re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")
     return slug or "section"
+
+
+CODE_SPAN_RE = re.compile(r"`([^`]+)`")
+
+
+def render_inline(text: str) -> str:
+    """Render prose: markdown links as anchors, backticks as code.
+
+    A backticked word that names a tag (``Data``, ``Open``, ``Legacy``) is
+    rendered as the same chip used on an entry, so the Legend shows the
+    real thing rather than a picture of it.
+    """
+    out: list[str] = []
+    last = 0
+    for match in CODE_SPAN_RE.finditer(text):
+        out.append(linkify(text[last : match.start()]))
+        value = match.group(1).strip()
+        # Accept both "Data" and "▦ Data" in the README prose.
+        name = value
+        for glyph in TAG_GLYPHS.values():
+            if name.startswith(glyph):
+                name = name[len(glyph) :].strip()
+                break
+        if name in TAG_GLYPHS:
+            out.append(tag_chip_html(name))
+        else:
+            out.append(f"<code>{esc(value)}</code>")
+        last = match.end()
+    out.append(linkify(text[last:]))
+    return "".join(out)
 
 
 def linkify(text: str) -> str:
@@ -149,14 +218,29 @@ def parse_readme(text: str) -> dict:
     current: dict | None = None
     current_sub: dict | None = None
     in_code_block = False
+    code_lines: list[str] = []
 
     for raw in text.splitlines():
         line = raw.rstrip()
         if line.strip().startswith("```"):
-            # Fenced code blocks hold examples, not entries.
+            if in_code_block:
+                # Closing fence: keep the example as a code block so it
+                # renders as code instead of leaking backticks into prose.
+                if current is not None:
+                    current["items"].append(
+                        {
+                            "type": "text",
+                            "text": "\n".join(code_lines),
+                            "level": 0,
+                            "bullet": False,
+                            "code": True,
+                        }
+                    )
+                code_lines = []
             in_code_block = not in_code_block
             continue
         if in_code_block:
+            code_lines.append(raw)
             continue
         if not line.strip() or line.startswith("[!["):
             continue
@@ -198,8 +282,17 @@ def parse_readme(text: str) -> dict:
         elif current is not None:
             text = line.strip()
             items = current["items"]
-            if items and items[-1]["type"] == "text":
-                items[-1]["text"] += " " + text
+            # Only join wrapped lines of the same paragraph. A bullet or a
+            # code block ends the paragraph it sits in, so prose that follows
+            # one starts a new block instead of being absorbed into it.
+            previous = items[-1] if items else None
+            if (
+                previous is not None
+                and previous["type"] == "text"
+                and not previous.get("bullet")
+                and not previous.get("code")
+            ):
+                previous["text"] += " " + text
             else:
                 items.append({"type": "text", "text": text, "level": 0})
         elif not tagline:
@@ -228,10 +321,7 @@ def render_entry(item: dict) -> str:
     style = f' style="padding-left:{indent}px"' if indent else ""
     name = esc(item["name"])
     url = esc(item["url"])
-    chips = "".join(
-        f'<span class="tag tag-{esc(tag.lower())}">{esc(tag)}</span>'
-        for tag in item.get("tags", [])
-    )
+    chips = "".join(tag_chip_html(tag) for tag in item.get("tags", []))
     desc = f'<span class="desc">{esc(item["desc"])}</span>' if item["desc"] else ""
     return (
         f'<div class="entry"{style}>'
@@ -241,8 +331,10 @@ def render_entry(item: dict) -> str:
 
 
 def render_text(item: dict) -> str:
-    """Render a plain-text item, linkifying any markdown links."""
-    return f'<p class="note">{linkify(item["text"])}</p>'
+    """Render a plain-text item, with links, code spans and tag chips."""
+    if item.get("code"):
+        return f'<pre class="code"><code>{esc(item["text"])}</code></pre>'
+    return f'<p class="note">{render_inline(item["text"])}</p>'
 
 
 def render_items(items: list[dict]) -> str:
@@ -387,6 +479,11 @@ PAGE_TEMPLATE = """<!DOCTYPE html>
   --border: #e5e7eb;
   --radius: 10px;
   --shadow: 0 1px 2px rgba(16, 24, 40, 0.06);
+  /* Tag axis colours, drawn from the Okabe-Ito colour-blind safe palette.
+     Shape carries the meaning; colour only reinforces which axis a tag is. */
+  --tag-type: #0072b2;
+  --tag-access: #007a5c;
+  --tag-status: #b45309;
 }
 [data-theme="dark"] {
   --bg: #0f172a;
@@ -397,6 +494,9 @@ PAGE_TEMPLATE = """<!DOCTYPE html>
   --accent-soft: #134e4a;
   --border: #334155;
   --shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  --tag-type: #56b4e9;
+  --tag-access: #34d399;
+  --tag-status: #fbbf24;
 }
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
@@ -526,21 +626,29 @@ h3 { font-size: 1rem; margin: 20px 0 10px; color: var(--accent); }
 .entry .link:hover { text-decoration: underline; }
 .entry .desc { color: var(--muted); font-size: 0.9rem; }
 .entry .desc::before { content: "\\2013  "; color: var(--border); }
-.entry .tag {
+.tag {
   display: inline-block;
   margin-left: 8px;
-  padding: 1px 7px;
+  padding: 1px 8px;
   border-radius: 999px;
-  border: 1px solid var(--border);
-  background: var(--bg);
-  color: var(--muted);
+  border: 1px solid currentColor;
+  background: var(--surface);
   font-size: 0.72rem;
   font-weight: 600;
   letter-spacing: 0.02em;
   vertical-align: 1px;
+  white-space: nowrap;
 }
-.entry .tag-data, .entry .tag-api { color: var(--accent); border-color: var(--accent); }
-.entry .tag-legacy, .entry .tag-archived { color: #b45309; border-color: #b45309; }
+.tag-type { color: var(--tag-type); }
+.tag-access { color: var(--tag-access); }
+.tag-status { color: var(--tag-status); }
+.tag-glyph {
+  margin-right: 4px;
+  font-size: 0.9em;
+  /* Keep the glyph on one line and stop the browser swapping in an emoji. */
+  font-variant-emoji: text;
+}
+.note .tag { background: var(--bg); }
 .note {
   color: var(--muted);
   font-size: 0.92rem;
@@ -550,6 +658,25 @@ h3 { font-size: 1rem; margin: 20px 0 10px; color: var(--accent); }
   padding: 10px 14px;
 }
 .note a { color: var(--accent); }
+.note code, .code {
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas,
+    monospace;
+  font-size: 0.85em;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  padding: 1px 5px;
+  color: var(--text);
+}
+.code {
+  display: block;
+  white-space: pre;
+  overflow-x: auto;
+  margin: 10px 0 0;
+  padding: 10px 14px;
+  line-height: 1.5;
+}
+.code code { background: none; border: 0; padding: 0; }
 .result-count { color: var(--muted); font-size: 0.9rem; margin: 0 0 16px; }
 .site-footer {
   margin-top: 40px;

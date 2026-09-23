@@ -44,6 +44,47 @@ body:
     validations:
       required: true
 
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type
+      description: What is it? See the legend in README.md.
+      options:
+        - "⇄ API (a programmatic interface)"
+        - "▦ Data (datasets you download or query)"
+        - "☰ Portal (a site you search across many datasets)"
+        - "☑ Register (an official register you look records up in)"
+        - "¶ Docs (documentation or metadata)"
+        - Not sure
+    validations:
+      required: true
+
+  - type: dropdown
+    id: access
+    attributes:
+      label: Access
+      description: What does it take to use?
+      options:
+        - "○ Open (no key and no account needed)"
+        - "◑ Key (API key or developer registration)"
+        - "◕ Login (user account)"
+        - "● Paid"
+        - Not sure
+    validations:
+      required: true
+
+  - type: dropdown
+    id: status
+    attributes:
+      label: Status
+      description: Is this still the current tool for that data?
+      options:
+        - Current
+        - "⟳ Legacy (still online, but superseded)"
+        - "▣ Archived (frozen snapshot)"
+    validations:
+      required: true
+
   - type: textarea
     id: description
     attributes:

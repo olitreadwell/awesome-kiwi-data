@@ -16,8 +16,11 @@ Fill in what you know. Someone will verify it and add it as a pull request.
 Find the section that fits and add your link as a bullet:
 
 ```markdown
-- [Name](https://example.govt.nz/) - Data - Open - one-line description of what it is.
+- [Name](https://example.govt.nz/) - ▦ Data - ○ Open - one-line description of what it is.
 ```
+
+The glyphs are optional, and the site adds them anyway, but including them
+keeps the README and the site looking the same.
 
 If the link belongs to a group (for example an agency with several
 datasets), add it as an indented bullet under the group name.
@@ -25,11 +28,13 @@ datasets), add it as an indented bullet under the group name.
 ### 2. Tag the entry
 
 Every entry needs a type and an access level, and a status if the tool has
-been superseded. The full list is in the [legend](README.md#legend):
+been superseded. Each tag carries a glyph so the tags can be told apart
+without relying on colour. The full list is in the
+[legend](README.md#legend):
 
-- Type: `API`, `Data`, `Portal`, `Register`, `Docs`
-- Access: `Open`, `Key`, `Login`, `Paid`
-- Status: `Legacy`, `Archived` (omit for anything current)
+- Type: `⇄ API`, `▦ Data`, `☰ Portal`, `☑ Register`, `¶ Docs`
+- Access: `○ Open`, `◑ Key`, `◕ Login`, `● Paid`
+- Status: `⟳ Legacy`, `▣ Archived` (omit for anything current)
 
 `python3 scripts/validate_readme.py` rejects entries without tags, so run it
 before opening a pull request.
