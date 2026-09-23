@@ -16,7 +16,7 @@ dev = [
 ]
 
 [package.metadata]
-requires-dist = [{ name = "awesome-list", git = "https://github.com/olitreadwell/awesome-list-template?rev=6a71631" }]
+requires-dist = [{ name = "awesome-list", git = "https://github.com/olitreadwell/awesome-list-template?rev=1b5dbd3" }]
 
 [package.metadata.requires-dev]
 dev = [{ name = "pytest", specifier = "==9.1.1" }]
@@ -24,7 +24,7 @@ dev = [{ name = "pytest", specifier = "==9.1.1" }]
 [[package]]
 name = "awesome-list"
 version = "0.1.0"
-source = { git = "https://github.com/olitreadwell/awesome-list-template?rev=6a71631#6a71631a45339c5b93cfe33ffe558d73f9f0c77d" }
+source = { git = "https://github.com/olitreadwell/awesome-list-template?rev=1b5dbd3#1b5dbd3cc71f13eaa1c35d38e440d718aacafd4f" }
 dependencies = [
     { name = "markdown-it-py" },
 ]
