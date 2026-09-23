@@ -12,8 +12,12 @@ name: Weekly link check
 # so it raises a workflow warning instead of passing silently. Turn issues on
 # with: gh repo edit --enable-issues
 #
-# geonode.whanganui.govt.nz is excluded because its server breaks lychee's
-# HTTP/2 probe (verified 200 over HTTP/1.1 and fine in a browser).
+# Two links are excluded because the failure is in the checker, not the link:
+#   geonode.whanganui.govt.nz - the server breaks lychee's HTTP/2 probe
+#     (verified 200 over HTTP/1.1 and fine in a browser).
+#   www.nzor.org.nz - the Landcare Research NetScaler resets the TLS
+#     handshake for lychee (verified live in a browser, and by a Wayback
+#     crawl on 19 September 2026).
 
 on:
   schedule:
@@ -63,6 +67,7 @@ jobs:
             --retry-wait-time 5 \
             --exclude '^https?://(localhost|127\.0\.0\.1)' \
             --exclude '^https://geonode\.whanganui\.govt\.nz' \
+            --exclude '^https://www\.nzor\.org\.nz' \
             README.md | tee linkcheck-output.txt
           echo "exit_code=${PIPESTATUS[0]}" >> "$GITHUB_OUTPUT"
 
@@ -80,6 +85,7 @@ jobs:
             --max-concurrency 1 \
             --exclude '^https?://(localhost|127\.0\.0\.1)' \
             --exclude '^https://geonode\.whanganui\.govt\.nz' \
+            --exclude '^https://www\.nzor\.org\.nz' \
             README.md 2>&1 | grep -E '^\[' > redirects-output.txt
           echo "redirecting links: $(wc -l < redirects-output.txt | tr -d ' ')"
 

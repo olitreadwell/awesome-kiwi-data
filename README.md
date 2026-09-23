@@ -70,37 +70,39 @@ These cover most requests. Each one is listed in full under its publisher below.
     - [Digital NZ API](https://digitalnz.org/developers) - API - Key - search across NZ heritage collections.
     - [Data.govt.nz](https://www.data.govt.nz/) - Portal - Open - government dataset catalogue.
     - [Government A-Z directory](https://www.govt.nz/organisations/) - Register - Open - every government organisation and what it does.
-    - [New Zealand Gazette](http://www.digitalnz.org/developers/govhack-infopack#gazette) - Data - Open.
-    - [Papers Past](http://natlib.govt.nz/about-us/open-data/papers-past-metadata) - Data - Open.
-    - [Turnbull Unpublished Collections](http://natlib.govt.nz/about-us/open-data/turnbull-unpublished-collections-metadata) - Data - Open.
-    - [WWI related data](http://www.digitalnz.org/developers/wwi-api-examples) - Data - Open.
-    - [Publications New Zealand](http://natlib.govt.nz/about-us/open-data/publications-nz-metadata) - Data - Open.
-    - [Index New Zealand](http://natlib.govt.nz/about-us/open-data/innz-metadata) - Data - Open.
-    - [Free Alexander Turnbull Library Image Downloads](http://natlib.govt.nz/photos?il%5batl_free_download%5d=true) - Data - Open.
+    - [New Zealand Gazette](https://gazette.govt.nz/) - Data - Open - official notices, appointments and public notices, published weekly.
+    - [Papers Past](https://natlib.govt.nz/about-us/open-data/papers-past-metadata) - Data - Open - digitised newspapers and magazines, with metadata.
+    - [Turnbull Unpublished Collections](https://natlib.govt.nz/about-us/open-data/turnbull-unpublished-collections-metadata) - Data - Open - metadata for unpublished material held by the Turnbull Library.
+    - [DigitalNZ API examples](https://digitalnz.org/developers/api-examples-in-use) - Docs - Open - worked examples for the DigitalNZ API, replacing the retired WWI examples pack.
+    - [Publications New Zealand](https://natlib.govt.nz/about-us/open-data/publications-nz-metadata) - Data - Open - metadata for New Zealand publications.
+    - [Index New Zealand](https://natlib.govt.nz/about-us/open-data/innz-metadata) - Data - Open - metadata for New Zealand journals and newspapers.
+    - [Alexander Turnbull Library image downloads](https://natlib.govt.nz/photos?il%5batl_free_download%5d=true) - Data - Open - free downloads of out-of-copyright images.
 - Inland Revenue (IRD)
     - [Tax Statistics](https://www.ird.govt.nz/about-us/tax-statistics) - Data - Open.
+- The Treasury
+    - [Budgets and forecasts](https://www.treasury.govt.nz/information-and-services/financial-management-and-advice/budgets-and-forecasts) - Data - Open - Budget documents and Economic and Fiscal Update tables and charts.
+    - [Living Standards Framework dashboard](https://lsfdashboard.treasury.govt.nz/wellbeing/) - Data - Open - wellbeing indicators for New Zealand.
 - Land Information New Zealand (LINZ)
     - [LINZ Data Service](https://data.linz.govt.nz/) - Data - Open - authoritative topographic, hydrographic, survey, title, street address, crown pastoral land, aerial imagery and geodetic data.
 - Education Counts
     - [National data collections](https://www.educationcounts.govt.nz/data-services/national) - Data - Open.
     - [Statistics](https://www.educationcounts.govt.nz/statistics) - Data - Open.
 - Herenga ā Nuku Aotearoa (Walking Access Commission)
-    - [Public Access Areas](https://data.govt.nz/dataset/show/3630) - Data - Open.
-    - [Public Access Areas (REST API)](http://wams.org.nz/arcgis/rest/services/WEBSERVICE/WEBSERVICE_Public_Access_Areas/MapServer) - API - Open.
-    - [Outdoor access maps](https://www.herengaanuku.govt.nz/maps/outdoor-access-maps) - Portal - Open - downloadable maps and trail data.
+    - [Public Access Areas](https://catalogue.data.govt.nz/dataset/public-access-areas) - Data - Open - where the public has a right of access across land, with service links.
+    - [Outdoor access maps](https://www.herengaanuku.govt.nz/maps/outdoor-access-maps) - Portal - Open - the live WAMS maps, and where the public access data is served from.
 - New Zealand Police
     - [Crime Statistics](https://www.police.govt.nz/about-us/publications-statistics/data-and-statistics) - Data - Open.
 - New Zealand Qualifications Authority (NZQA)
     - [Secondary School Statistics](https://www2.nzqa.govt.nz/ncea/understanding-secondary-quals/secondary-school-stats/) - Data - Open.
 - New Zealand Transport Agency (NZTA)
-    - [NZTA InfoConnect](https://www.nzta.govt.nz/traffic-and-travel-information/infoconnect-section-page/) - API - Key - traffic and travel APIs, registration required.
-        - [Auckland Traffic](https://www.nzta.govt.nz/traffic-and-travel-information/infoconnect-section-page/about-the-apis/auckland-traffic-api/) - API - Key.
-        - [Christchurch Traffic](https://www.nzta.govt.nz/traffic-and-travel-information/infoconnect-section-page/about-the-apis/christchurchy-traffic-api/) - API - Key.
-        - [Highway Information](https://www.nzta.govt.nz/traffic-and-travel-information/infoconnect-section-page/about-the-apis/highway-information-api/) - API - Key.
-        - [Location Referencing](https://www.nzta.govt.nz/traffic-and-travel-information/infoconnect-section-page/about-the-apis/location-referencing-api/) - API - Key.
-        - [SSDF Segment Manager](https://www.nzta.govt.nz/traffic-and-travel-information/infoconnect-section-page/about-the-apis/ssdf-segment-manager-api/) - API - Key.
-        - [Traffic Cameras](https://www.nzta.govt.nz/traffic-and-travel-information/infoconnect-section-page/about-the-apis/traffic-cameras/) - API - Key.
-    - [Crash Analysis System (CAS)](https://www.nzta.govt.nz/resources/crash-analysis-system-data/index.html) - Data - Open.
+    - [NZTA open data portal](https://opendata-nzta.opendata.arcgis.com/) - Portal - Open - 36 transport datasets, including the former InfoConnect feeds. The InfoConnect API pages were retired and now 404.
+        - [Highway information](https://opendata-nzta.opendata.arcgis.com/datasets/NZTA::nzta-highway-information) - Data - Open - near real time state highway conditions.
+        - [Road events](https://opendata-nzta.opendata.arcgis.com/datasets/NZTA::road-events) - Data - Open - closures, crashes and hazards.
+        - [TMS daily traffic counts API](https://opendata-nzta.opendata.arcgis.com/datasets/NZTA::tms-daily-traffic-counts-api) - API - Open.
+        - [State highway traffic monitoring sites](https://opendata-nzta.opendata.arcgis.com/datasets/NZTA::state-highway-traffic-monitoring-sites) - Data - Open.
+        - [Motor Vehicle Register](https://opendata-nzta.opendata.arcgis.com/datasets/NZTA::motor-vehicle-register) - Data - Open.
+        - [National Speed Limit Register (NSLR)](https://opendata-nzta.opendata.arcgis.com/datasets/NZTA::national-speed-limit-register-nslr) - Data - Open.
+    - [Crash Analysis System (CAS)](https://www.nzta.govt.nz/resources/crash-analysis-system-data/index.html) - Data - Open - how to request crash data, with the open dataset linked from the portal.
     - [Aerial Imagery](https://koordinates.com/from/nzta/data/) - Data - Open.
 - Ministry of Business, Innovation and Employment (MBIE)
     - [Business API portal](https://portal.api.business.govt.nz/) - Portal - Key - MBIE register APIs, subscription required.
@@ -113,7 +115,8 @@ These cover most requests. Each one is listed in full under its publisher below.
         - [Personal Property Securities Register (PPSR)](https://portal.api.business.govt.nz/api/ppsr) - API - Key.
         - [Radio Spectrum Management (RSM)](https://portal.api.business.govt.nz/api/radiospectrum-management) - API - Key.
         - [Tenancy Bond](https://portal.api.business.govt.nz/api/tenancy-bond) - API - Key.
-        - [Petroleum and Minerals (NZPAM)](https://www.nzpam.govt.nz/) - Register - Open - the NZPAM API is not in the MBIE portal, so use the register.
+        - [Petroleum and Minerals (NZPAM)](https://www.nzpam.govt.nz/permits/minerals) - Register - Open - minerals permits. There is no NZPAM API in the MBIE portal.
+    - [NZPAM Geodata Catalogue](https://geodata.nzpam.govt.nz/) - Data - Open - petroleum and minerals geoscience data, the NZPAM data store.
 - Department of Corrections
     - [Research](https://www.corrections.govt.nz/resources/research) - Data - Open - prison population and corrections statistics.
 - Immigration New Zealand
@@ -127,7 +130,7 @@ These cover most requests. Each one is listed in full under its publisher below.
 - [Monthly Regional Tourism Estimates](https://www.mbie.govt.nz/immigration-and-tourism/tourism-research-and-data/tourism-data-releases/monthly-regional-tourism-estimates) - Data - Open - monthly visitor spend by region.
 - [Tourism data releases](https://www.mbie.govt.nz/immigration-and-tourism/tourism-research-and-data/tourism-data-releases) - Portal - Open - forecasts and other tourism releases.
 - Reserve Bank of New Zealand
-    - [Statistics](http://www.rbnz.govt.nz/statistics/) - Data - Open.
+    - [Statistics](https://www.rbnz.govt.nz/statistics) - Data - Open - monetary, financial and economic statistics.
 - New Zealand Institute of Economic Research
     - [Data1850](https://www.nzier.org.nz/data-1850) - Data - Open - long-term economic data.
 
@@ -171,21 +174,22 @@ These cover most requests. Each one is listed in full under its publisher below.
     - [GeoNet API](https://api.geonet.org.nz/) - API - Open - earthquake, volcano and tsunami data.
 - Landcare Research | Manaaki Whenua
     - [LRIS Portal - Science/Land GIS Data & APIs](https://lris.scinfo.org.nz/) - Portal - Open.
-    - [Topographic basemaps (OGC WMS)](http://maps.scinfo.org.nz/basemaps/wms?) - API - Open.
+    - [Topographic basemaps (OGC WMS)](http://maps.scinfo.org.nz/basemaps/wms?service=WMS&request=GetCapabilities) - API - Open - capabilities document for the basemap service; the bare service URL returns an error page.
 
 ## Non-government organisations
 
 - Land Air Water Aotearoa (LAWA)
-    - [Natural resources data](http://www.lawa.org.nz/) - Data - Open.
+    - [Natural resources data](https://www.lawa.org.nz/) - Data - Open - river quality, air quality and water quantity monitoring.
 - New Zealand Organisms Register
-    - [Organism Register](http://data.nzor.org.nz/) - Data - Open.
+    - [Organism Register](https://www.nzor.org.nz/) - Data - Open - the register of New Zealand organism names. The old data.nzor.org.nz host is gone.
 - Figure NZ (formally Wiki New Zealand)
     - [Charts and data](https://figure.nz/) - Data - Open - curated charts built from official sources; the old public API has been withdrawn.
 
 ## Companies
 
 - New Zealand Electricity Industry
-    - [Market Info](http://www.electricityinfo.co.nz/comitFta/ftapage.main) - Data - Open.
+    - [Electricity Authority Data & insights](https://www.ea.govt.nz/data-and-insights/) - Portal - Open - the current home for electricity market data, replacing the EMI platform.
+    - [Market Info (CDS)](https://www.electricityinfo.co.nz/comitFta/ftapage.main) - Data - Login - the Centralised Dataset, an account is needed.
 - NZ Post
     - [Developer Centre](https://www.nzpost.co.nz/business/ecommerce/developer-resource-centre) - API - Key - address and parcel APIs.
 - Zenbu
@@ -209,9 +213,8 @@ These cover most requests. Each one is listed in full under its publisher below.
 
 ## Acknowledgements
 
-This list began as [New Zealand Data & APIs](https://github.com/WikiNewZealand/new-zealand-data) and grew out of the 2015 GovHack dataset lists.
+This list began as [New Zealand Data & APIs](https://github.com/WikiNewZealand/new-zealand-data) and grew out of the 2015 GovHack dataset lists. GovHack itself is not linked: the govhack.org.nz domain was dropped and now serves an unrelated casino site.
 
-- [Govhack 2015](https://www.govhack.org.nz/) - Portal - Open - the event this list started from.
 - [Open NZ Wiki APIs](https://web.archive.org/web/20180129103726/https://wiki.open.org.nz/wiki/spaces/main/pages/589878/New+Zealand+APIs) - Docs - Open - Archived - where this list originally came from.
 - [Open NZ datasets](https://web.archive.org/web/20180129035232/http://cat.open.org.nz/category/dataset/) - Data - Open - Archived - catalogue of datasets from the same era.
 
