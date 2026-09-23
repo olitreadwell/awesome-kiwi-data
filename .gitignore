@@ -7,3 +7,6 @@ site/
 
 # OS cruft
 .DS_Store
+.venv/
+.pytest_cache/
+.state/

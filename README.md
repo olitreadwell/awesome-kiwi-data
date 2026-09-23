@@ -34,7 +34,7 @@ Tags sit between the link and the description, in that order:
 - [Name](https://example.govt.nz/) - ⇄ API - ◑ Key - ⟳ Legacy - what it holds.
 ```
 
-Dead links are repaired or dropped as they are found, and CI re-checks every link weekly.
+Dead links are repaired or dropped as they are found, and a weekly job re-checks every link.
 
 ## Start here
 
@@ -178,7 +178,7 @@ These cover most requests. Each one is listed in full under its publisher below.
     - [GeoNet API](https://api.geonet.org.nz/) - ⇄ API - ○ Open - earthquake, volcano and tsunami data.
 - Landcare Research | Manaaki Whenua
     - [LRIS Portal - Science/Land GIS Data & APIs](https://lris.scinfo.org.nz/) - ☰ Portal - ○ Open.
-    - [Topographic basemaps (OGC WMS)](http://maps.scinfo.org.nz/basemaps/wms?service=WMS&request=GetCapabilities) - ⇄ API - ○ Open - capabilities document for the basemap service; the bare service URL returns an error page.
+    - [Topographic basemaps (OGC WMS)](https://maps.scinfo.org.nz/basemaps/wms?service=WMS&request=GetCapabilities) - ⇄ API - ○ Open - capabilities document for the basemap service; the bare service URL returns an error page.
 
 ## Non-government organisations
 

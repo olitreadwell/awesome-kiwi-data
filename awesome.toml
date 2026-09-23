@@ -1,0 +1,44 @@
+# Configuration for this list. The engine reads it, the site reads it, and the
+# scheduled jobs read it.
+
+name = "Awesome Kiwi Data"
+repo_slug = "awesome-kiwi-data"
+readme = "README.md"
+
+# Sections that hold entries. "Start here" is a prose summary, so it is not
+# listed here and the engine leaves it alone.
+sections = [
+    "Central government and agencies",
+    "Tourism and economic data",
+    "Regional councils",
+    "City and district councils",
+    "Crown Research Institutes (CRIs)",
+    "Non-government organisations",
+    "Companies",
+    "Acknowledgements",
+]
+
+[site]
+enabled = true
+
+[links]
+archive = "off"
+exclude = []
+allowlist = []
+
+[tags.type]
+API = "⇄"
+Data = "▦"
+Portal = "☰"
+Register = "☑"
+Docs = "¶"
+
+[tags.access]
+Open = "○"
+Key = "◑"
+Login = "◕"
+Paid = "●"
+
+[tags.status]
+Legacy = "⟳"
+Archived = "▣"

@@ -1,0 +1,20 @@
+[project]
+name = "awesome-kiwi-data"
+version = "0.1.0"
+description = "A curated list of New Zealand data sources, APIs, registers and portals."
+requires-python = ">=3.12"
+dependencies = [
+    "awesome-list @ git+https://github.com/olitreadwell/awesome-list-template@08599c9a363efc18462ca7f94a7a55bd53ae19a4",
+]
+
+[dependency-groups]
+dev = [
+    "pytest==9.1.1",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q --strict-markers"
+
+[tool.uv]
+package = false
