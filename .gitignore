@@ -10,3 +10,4 @@ site/
 .venv/
 .pytest_cache/
 .state/
+.lycheecache
