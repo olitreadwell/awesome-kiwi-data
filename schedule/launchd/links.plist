@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
   <key>Label</key>
-  <string>nz.olitreadwell.awesome-kiwi-data.links</string>
+  <string>nz.olitreadwell.awesome-open-nz-data.links</string>
   <key>ProgramArguments</key>
   <array>
     <string>/bin/bash</string>

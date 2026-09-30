@@ -1,8 +1,8 @@
-# Awesome Kiwi Data [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome NZ Data [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 > A curated list of New Zealand data sources, APIs, registers and portals, tagged with what each one is and what it takes to use it.
 
-The list is also published as a searchable site at <https://olitreadwell.github.io/awesome-kiwi-data/>, generated from this README by `scripts/build_site.py`.
+The list is also published as a searchable site at <https://olitreadwell.github.io/awesome-open-nz-data/>, generated from this README by `scripts/build_site.py`.
 
 ## Contents
 

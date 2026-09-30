@@ -1,5 +1,5 @@
 [project]
-name = "awesome-kiwi-data"
+name = "awesome-open-nz-data"
 version = "0.1.0"
 description = "A curated list of New Zealand data sources, APIs, registers and portals."
 requires-python = ">=3.12"

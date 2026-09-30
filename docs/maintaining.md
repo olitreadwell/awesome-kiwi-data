@@ -41,8 +41,8 @@ To run it weekly without a hosted runner:
 ```bash
 mkdir -p ~/Library/LaunchAgents
 sed "s|__REPO__|$PWD|g" schedule/launchd/links.plist \
-  > ~/Library/LaunchAgents/nz.olitreadwell.awesome-kiwi-data.links.plist
-launchctl load ~/Library/LaunchAgents/nz.olitreadwell.awesome-kiwi-data.links.plist
+  > ~/Library/LaunchAgents/nz.olitreadwell.awesome-open-nz-data.links.plist
+launchctl load ~/Library/LaunchAgents/nz.olitreadwell.awesome-open-nz-data.links.plist
 ```
 
 A laptop that is asleep at the scheduled hour runs the job on the next wake.

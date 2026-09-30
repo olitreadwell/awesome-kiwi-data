@@ -1,8 +1,8 @@
 # Configuration for this list. The engine reads it, the site reads it, and the
 # scheduled jobs read it.
 
-name = "Awesome Kiwi Data"
-repo_slug = "awesome-kiwi-data"
+name = "Awesome NZ Data"
+repo_slug = "awesome-open-nz-data"
 readme = "README.md"
 
 # Sections that hold entries. "Start here" is a prose summary, so it is not

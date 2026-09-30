@@ -42,10 +42,10 @@ OUT_OPENSEARCH = OUT_DIR / "opensearch.xml"
 OUT_404 = OUT_DIR / "404.html"
 
 # Where the site is published. Change this when deploying elsewhere.
-SITE_URL = "https://olitreadwell.github.io/awesome-kiwi-data/"
+SITE_URL = "https://olitreadwell.github.io/awesome-open-nz-data/"
 # Where the README that generates this site lives.
-GITHUB_REPO_URL = "https://github.com/olitreadwell/awesome-kiwi-data"
-GITHUB_README_URL = "https://github.com/olitreadwell/awesome-kiwi-data/blob/main/README.md"
+GITHUB_REPO_URL = "https://github.com/olitreadwell/awesome-open-nz-data"
+GITHUB_README_URL = "https://github.com/olitreadwell/awesome-open-nz-data/blob/main/README.md"
 
 LINK_RE = re.compile(r"\[([^\]]+)\] ?\(([^)]+)\)")
 DESC_SEP_RE = re.compile(r"^[-–—:]\s*")
@@ -245,7 +245,7 @@ def parse_readme(text: str) -> dict:
         if not line.strip() or line.startswith("[!["):
             continue
         if line.startswith("# "):
-            # Drop trailing badges: "# Awesome Kiwi Data [![Awesome](...)]"
+            # Drop trailing badges: "# Awesome NZ Data [![Awesome](...)]"
             title = re.split(r"\s*\[!\[", line[2:].strip())[0].strip()
         elif line.startswith("### "):
             name = line[4:].strip()
@@ -727,7 +727,7 @@ h3 { font-size: 1rem; margin: 20px 0 10px; color: var(--accent); }
       <input id="search" type="search" placeholder="Search datasets and APIs…"
         autocomplete="off" aria-label="Search datasets and APIs">
       <button id="theme" class="theme-btn" aria-label="Toggle dark mode">Dark</button>
-      <a class="btn" href="https://github.com/olitreadwell/awesome-kiwi-data"
+      <a class="btn" href="https://github.com/olitreadwell/awesome-open-nz-data"
         target="_blank" rel="noopener">View on GitHub</a>
     </div>
   </div>
@@ -742,11 +742,11 @@ h3 { font-size: 1rem; margin: 20px 0 10px; color: var(--accent); }
 __SECTIONS__
     <footer class="site-footer">
       <p>Generated from
-        <a href="https://github.com/olitreadwell/awesome-kiwi-data/blob/main/README.md">README.md</a>
+        <a href="https://github.com/olitreadwell/awesome-open-nz-data/blob/main/README.md">README.md</a>
         by <code>scripts/build_site.py</code>. Machine-readable copies:
         <a href="data.json">data.json</a>, <a href="data.csv">data.csv</a>.
         Found a dead link or a missing dataset? Open an issue or pull request
-        on <a href="https://github.com/olitreadwell/awesome-kiwi-data">GitHub</a>.</p>
+        on <a href="https://github.com/olitreadwell/awesome-open-nz-data">GitHub</a>.</p>
     </footer>
   </div>
 </main>
